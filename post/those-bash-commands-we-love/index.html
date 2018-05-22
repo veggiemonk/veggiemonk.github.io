@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Posts</title>
+        <title>💻 Those bash commands we love</title>
         
         <style>
 
@@ -61,9 +61,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.40.3" />
         
-        <link href="https://veggiemonk.github.io/post/index.xml" rel="alternate" type="application/rss+xml" title="Julien Bisconti" />
-        <link href="https://veggiemonk.github.io/post/index.xml" rel="feed" type="application/rss+xml" title="Julien Bisconti" />
-        
 
         
     </head>
@@ -83,7 +80,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Posts</a>
+                    <a class="navbar-brand visible-xs" href="#">💻 Those bash commands we love</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -128,9 +125,7 @@
 
 <main>
 
-    <h2>Posts</h2>
-
-     <div class="item">
+    <div class="item">
 
     
     
@@ -154,35 +149,171 @@
     
 
 </div>
-  <div class="item">
 
-    
-    
-    
 
-    
-    
+    <br> <div class="text-justify">
 
-    <h4><a href="/post/simple-http-request-in-cljs/">🔗 ClojureScript HTTP data fetching</a></h4>
-    <h5>December 6, 2016</h5>
-    
-    <a href="https://veggiemonk.github.iotags/clojure"><kbd class="item-tag">clojure</kbd></a>
-    
-    <a href="https://veggiemonk.github.iotags/clojurescript"><kbd class="item-tag">clojurescript</kbd></a>
-    
-    <a href="https://veggiemonk.github.iotags/data"><kbd class="item-tag">data</kbd></a>
-    
-    <a href="https://veggiemonk.github.iotags/web"><kbd class="item-tag">web</kbd></a>
-    
-    <a href="https://veggiemonk.github.iotags/fetching"><kbd class="item-tag">fetching</kbd></a>
-    
+<h1 id="the-era-of-the-terminal">The era of the terminal</h1>
 
+<p>Looking back at the time of the mainframe with dummy terminal clients and their black/green screen, it makes me wonder if things really change that much. I guess it&rsquo;s like in everything, some things change, some don&rsquo;t. Deal with it.</p>
+
+<p>If you spend a decent amount of time in a terminal, you might have realized that there are some tasks that are tedious and error prone such as copy pasting a super long string (ssh public key) or some pods name from a kubernetes cluster.
+Those errors are wasting precious time that could be allocated to higher quest like indenting YAML in a manifest.</p>
+
+<h2 id="variables">Variables</h2>
+
+<p>The advantages of environment variables over arguments:</p>
+
+<ul>
+<li>order doesn&rsquo;t matter</li>
+<li>can be shared by more than one script</li>
+<li>it isn&rsquo;t stored anywhere (unless you keep your history)</li>
+<li>No code needed as opposed to a CLI made with Golang/Node.js/Python/&hellip;</li>
+</ul>
+
+<blockquote>
+<p>Notice that there is no space on each side of the &lsquo;=&rsquo;</p>
+</blockquote>
+
+<pre><code class="language-bash">AWS_PROFILE=user2 aws ec2 describe-instances  \\
+                  --instance-ids i-0787e4282810ef9cf \\
+                  --query 'Reservations[0].Instances[0].PublicIpAddress'
+# OUTPUT:
+#&quot;54.183.22.255&quot;
+
+## Or just to store things for later use
+INTERNAL_IP=$(curl -s -H &quot;Metadata-Flavor: Google&quot; \
+  http://metadata.google.internal/computeMetadata/v1/instance/network-interfaces/0/ip)
+</code></pre>
+
+<h2 id="looping">Looping</h2>
+
+<pre><code class="language-bash"># Loop over files in the current dir
+for file in *; do echo &quot;File -&gt; $file&quot;; done
+
+# Do something at interval
+ while true; do kubectl get pods; sleep 1; done
+
+# Iterate over arguments
+for var in &quot;$@&quot;
+do
+    echo &quot;$var&quot;
+done
+
+# same same but different by one
+for i in 0 1 2; do
+  gcloud compute routes create kubernetes-route-10-200-${i}-0-24 \
+    --network kubernetes-the-hard-way \
+    --next-hop-address 10.240.0.2${i} \
+    --destination-range 10.200.${i}.0/24
+done
+</code></pre>
+
+<p>Or in its own script:</p>
+
+<pre><code class="language-bash">#!/bin/bash
+# Randomly delete pods in a Kubernetes namespace.
+set -ex
+
+: ${DELAY:=30}
+: ${NAMESPACE:=default}
+
+while true; do
+  kubectl \
+    --namespace &quot;${NAMESPACE}&quot; \
+    -o 'jsonpath={.items[*].metadata.name}' \
+    get pods | \
+      tr &quot; &quot; &quot;\n&quot; | \
+      shuf | \
+      head -n 1 |
+      xargs -t --no-run-if-empty \
+        kubectl --namespace &quot;${NAMESPACE}&quot; delete pod
+  sleep &quot;${DELAY}&quot;
+done
+</code></pre>
+
+<h2 id="evaluating">Evaluating</h2>
+
+<p>Sometimes we need to copy-paste the content of a file:</p>
+
+<pre><code class="language-bash">cat &lt;&lt;EOF | ~/newly_created_file
+input
+on multiple lines
+EOF
+</code></pre>
+
+<p>Sometimes we need to have privileges:</p>
+
+<pre><code class="language-bash">cat &lt;&lt;EOF | sudo tee /etc/systemd/system/foo.service
+[Unit]
+Description=foo
+
+[Service]
+ExecStart=/bin/bash -c &quot;while true; do /bin/inotifywait -qq --event close_write /sys/class/backlight/acpi_video0/brightness; su myusername -c '/bin/xbacklight -display :0 -set $(cat /sys/class/backlight/acpi_video0/brightness)'; done&quot;
+
+[Install]
+WantedBy=multi-user.target
+EOF
+</code></pre>
+
+<h2 id="linting">Linting</h2>
+
+<ul>
+<li>Install <a href="https://www.shellcheck.net/">shellcheck</a></li>
+<li>Run it against your scripts</li>
+<li>Fix everything</li>
+</ul>
+
+<p>This is the most useful tool when it comes to finding bugs and to guide you to write better scripts.</p>
+
+<h2 id="useful">Useful</h2>
+
+<p>This part is just for those commands that we need once in while but can never really remember that they exist</p>
+
+<pre><code class="language-bash"># alias
+alias c=clear
+
+# The 20 most used command in your history
+history | awk 'BEGIN {FS=&quot;[ \t]+|\\|&quot;} {print $3}' | sort | uniq -c | sort -nr | head -n 20
+
+# Remove all node_modules forlder recursively
+find . -name &quot;node_modules&quot; -type d -prune -exec rm -rf '{}' +
+
+# Copying file with rsync over ssh, very useful to resume the transfer!
+rsync -avz -e ssh remoteuser@remotehost:/remote/dir /this/dir/
+
+# exporting a container
+docker export my_container | gzip &gt; my_container.tar.gz
+
+# execute last command with sudo
+sudo !!
+
+# get the directory of the script
+CURRENT_DIR=$(dirname &quot;$0&quot;)
+</code></pre>
+
+<h2 id="sources">Sources</h2>
+
+<p>My favorite sources of inspiration:</p>
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=hwrnmQumtPw">Bash in one video</a> 1h</li>
+<li><a href="https://github.com/jlevy/the-art-of-command-line">the art of command line</a></li>
+<li><a href="https://bash.cyberciti.biz/guide/Main_Page">NixCraft - Linux Shell Scripting Tutorial</a></li>
+<li><a href="https://github.com/kelseyhightower/kubernetes-the-hard-way">kubernetes the hard way</a></li>
+</ul>
+
+<p>Contact me to add your best bash tips here</p>
 </div>
- 
+
+    
+    
+
+    
+
+    
 
 </main>
-
-
 
         <footer>
 

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Julien Bisconti</title>
-    <link>https://veggiemonk.github.io/post/</link>
-    <description>Recent content in Posts on Julien Bisconti</description>
+    <title>Docker on Julien Bisconti</title>
+    <link>https://veggiemonk.github.io/tags/docker/</link>
+    <description>Recent content in Docker on Julien Bisconti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 22 May 2018 14:22:13 +0200</lastBuildDate>
     
-	<atom:link href="https://veggiemonk.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://veggiemonk.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,17 +19,6 @@
       <guid>https://veggiemonk.github.io/post/those-bash-commands-we-love/</guid>
       <description>The era of the terminal Looking back at the time of the mainframe with dummy terminal clients and their black/green screen, it makes me wonder if things really change that much. I guess it&amp;rsquo;s like in everything, some things change, some don&amp;rsquo;t. Deal with it.
 If you spend a decent amount of time in a terminal, you might have realized that there are some tasks that are tedious and error prone such as copy pasting a super long string (ssh public key) or some pods name from a kubernetes cluster.</description>
-    </item>
-    
-    <item>
-      <title>🔗 ClojureScript HTTP data fetching</title>
-      <link>https://veggiemonk.github.io/post/simple-http-request-in-cljs/</link>
-      <pubDate>Tue, 06 Dec 2016 19:54:04 +0700</pubDate>
-      
-      <guid>https://veggiemonk.github.io/post/simple-http-request-in-cljs/</guid>
-      <description>In ClojureScript, there is a very helpful library that is a wrapper around XHR. It is called cljs-http.
-In order to use it, we have to use the core.async library. core.async was design to work on the JVM to handle concurrent threads. JavaScript is single threaded but the concept is the same: passing message.
-Simple HTTP request It is helpful to know how to get data from a server when building a website or an app.</description>
     </item>
     
   </channel>
