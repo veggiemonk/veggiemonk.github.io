@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://veggiemonk.github.io/post/simple-http-request-in-cljs/</loc>
+    <lastmod>2016-12-06T19:54:04+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://veggiemonk.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://veggiemonk.github.io/tags/clojure/</loc>
+    <lastmod>2016-12-06T19:54:04+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://veggiemonk.github.io/tags/clojurescript/</loc>
+    <lastmod>2016-12-06T19:54:04+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://veggiemonk.github.io/tags/data/</loc>
+    <lastmod>2016-12-06T19:54:04+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://veggiemonk.github.io/tags/fetching/</loc>
+    <lastmod>2016-12-06T19:54:04+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://veggiemonk.github.io/</loc>
+    <lastmod>2016-12-06T19:54:04+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://veggiemonk.github.io/post/</loc>
+    <lastmod>2016-12-06T19:54:04+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://veggiemonk.github.io/tags/</loc>
+    <lastmod>2016-12-06T19:54:04+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://veggiemonk.github.io/tags/web/</loc>
+    <lastmod>2016-12-06T19:54:04+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

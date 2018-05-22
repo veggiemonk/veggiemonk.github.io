@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+         
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>🔗 ClojureScript HTTP data fetching</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: floralwhite;
+    }
+
+    :root {
+        --accent: #2492ff;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://veggiemonk.github.io/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javascript.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/clojure.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/clojurescript.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/html.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.40.3" />
+        
+
+        
+    </head>
+
+    
+    
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">🔗 ClojureScript HTTP data fetching</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/post/">Posts</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:julien.bisconti@hotmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/veggiemonk/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/veggiemonk/"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/julienbisconti/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/simple-http-request-in-cljs/">🔗 ClojureScript HTTP data fetching</a></h4>
+    <h5>December 6, 2016</h5>
+    
+    <a href="https://veggiemonk.github.iotags/clojure"><kbd class="item-tag">clojure</kbd></a>
+    
+    <a href="https://veggiemonk.github.iotags/clojurescript"><kbd class="item-tag">clojurescript</kbd></a>
+    
+    <a href="https://veggiemonk.github.iotags/data"><kbd class="item-tag">data</kbd></a>
+    
+    <a href="https://veggiemonk.github.iotags/web"><kbd class="item-tag">web</kbd></a>
+    
+    <a href="https://veggiemonk.github.iotags/fetching"><kbd class="item-tag">fetching</kbd></a>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+<p>In ClojureScript, there is a very helpful library that is a wrapper around XHR. It is called <a href="https://github.com/r0man/cljs-http">cljs-http</a>.</p>
+
+<p>In order to use it, we have to use the <code>core.async</code> library. <code>core.async</code> was design to work on the JVM to handle concurrent threads. JavaScript is single threaded but the concept is the same: passing message.</p>
+
+<h2 id="simple-http-request">Simple HTTP request</h2>
+
+<p>It is  helpful to know how to get data from a server when building a website or an app. It is a simple use case so here is an example of a <code>GET</code> request:</p>
+
+<pre><code class="language-clojure">;; require core.async and cljs-http
+(ns example.core
+  (:require-macros [cljs.core.async.macros :refer [go]])
+  (:require [cljs-http.client :as http]
+            [cljs.core.async :refer [&lt;!]]))
+
+;; request
+(go (let [response (&lt;! (http/get &quot;https://api.github.com/users&quot;
+                                ;; parameters
+                                 {:with-credentials? false
+                                  :query-params {&quot;since&quot; 135}}))]
+      (prn  (:body response)))) ;; print the response's body in the console
+</code></pre>
+
+<p>By the way, if the server returns data as JSON, the response will be automatically converted to EDN. So there is no extra work than the piece of code outlined above.
+Now that you have your data, you have to extract what you need. There is a good tutorial that talks about
+<a href="http://xahlee.info/clojure/clojure_binding_forms.html">destructuring</a>.</p>
+
+<h2 id="core-async">Core.async</h2>
+
+<p>The <code>go</code> macro is part of <code>core.async</code> library as well as <code>&lt;!</code> function which is use to extract message from the channel.
+You can read all about <a href="http://www.braveclojure.com/core-async/">concurrent process and channels here</a>.</p>
+
+<p>All HTTP functions in <code>cljs-http</code> return a <code>core.async channel</code>.
+When a request has completed or failed it is written on that channel.
+The response can be extracted with the <code>&lt;!</code> function inside a <code>go</code> block. I am not completely sure why but I know it has something to do with the fact that <code>go</code> is a macro. (If you know why, please leave a comment below).</p>
+
+<h2 id="custom-headers">Custom Headers</h2>
+
+<p>Sometimes you need to add a header such as &ldquo;Authorization&rdquo; (Github requires it).</p>
+
+<pre><code class="language-clojure">(go
+  (let [response (&lt;! (http/post &quot;https://api.github.com/graphql&quot;
+                                {:with-credentials? false
+                                 :headers {&quot;Authorization&quot; &quot;SuperSecretToken1234&quot;}
+                                 :json-params {:query &quot;query { viewer { login }}&quot;}}))]
+      (prn (:data (:body response)))))
+</code></pre>
+
+<p>With that you can go and start testing ClojureScript to your heart&rsquo;s delight and with data coming from a server.</p>
+
+<p>Happy prototyping&hellip;</p>
+</div>
+
+    
+    
+
+    
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></p>
+
+        </footer>
+       
+    </body>
+
+</html>
+
