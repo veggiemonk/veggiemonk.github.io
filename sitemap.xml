@@ -19,6 +19,10 @@
   </url>
   
   <url>
+    <loc>https://veggiemonk.github.io/project/docker/</loc>
+  </url>
+  
+  <url>
     <loc>https://veggiemonk.github.io/tags/bash/</loc>
     <lastmod>2018-05-22T14:22:13+02:00</lastmod>
     <priority>0</priority>
@@ -38,6 +42,16 @@
   <url>
     <loc>https://veggiemonk.github.io/tags/clojurescript/</loc>
     <lastmod>2016-12-06T19:54:04+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://veggiemonk.github.io/tags/cloud/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://veggiemonk.github.io/tags/container/</loc>
     <priority>0</priority>
   </url>
   
@@ -72,8 +86,18 @@
   </url>
   
   <url>
+    <loc>https://veggiemonk.github.io/tags/linux/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://veggiemonk.github.io/post/</loc>
     <lastmod>2018-05-22T14:22:13+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://veggiemonk.github.io/project/</loc>
     <priority>0</priority>
   </url>
   
