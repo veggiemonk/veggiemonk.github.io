@@ -1,0 +1,295 @@
+{
+  "basics": {
+    "name": "Julien Bisconti",
+    "label": "Software Engineer",
+    "picture": "",
+    "email": "julien.bisconti@gmail.com",
+    "phone": "+46 76 287 96 12",
+    "website": "https://veggiemonk.github.com",
+    "summary": "Senior Software Engineer. Degree: Master in Computer Science (graduated 2007). 11 years in the workforce. Passionate about automation, DevOps, containers, the cloud, deployment and functional programming. Interested in contract work. Aspiring to be a Site Reliability Engineering (SRE). Polyglot in many programming languages: JavaScript, Go, Python, bash, Java, Clojure/ClojureScript and Haskell. Interested to work with technologies such as kubernetes, serverless, service mesh, microservices, open source, software engineering at scale.",
+    "location": {
+      "city": "Stockholm",
+      "countryCode": "SE"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "veggiemonk",
+        "url": ""
+      },
+      {
+        "network": "github",
+        "username": "veggiemonk"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Discovery Networks Sweden",
+      "position": "Software Engineer",
+      "website": "www.discoverynetworks.se",
+      "startDate": "2018-03-01",
+      "endDate": "-",
+      "summary": "Cloud native, containerized environment. Content management (articles, shows, video, ...) for the entertainment industry",
+      "highlights": [
+        "Using containers, testing & deploying with Jenkins to Kubernetes cluster running on AWS. Logs gather with ELK stack. Metrics with Prometheus.",
+        "Performance critical microservice written in Java 8 using Redis intensively (Redis cluster with Sentinel) as well as PostgreSQL and ElasticSearch, using VertX for service to service communication.",
+        "Single Page App for editors to manage content for the Europeans websites."
+      ]
+    },
+    {
+      "company": "Unity Technologies Finland",
+      "position": "Software Engineer",
+      "website": "www.unity.com",
+      "startDate": "2017-01-02",
+      "endDate": "2018-02-28",
+      "summary": "Cloud native, containerized environment. Ads delivery business for the gaming industry",
+      "highlights": [
+        "Using containers, testing & deploying with Jenkins to Kubernetes cluster running on AWS. Logs gather with ELK stack. Metrics with Prometheus.",
+        "Technical recruiter: Part of the recruitment process, review technical tests, conduct interview.",
+        "Performance critical microservices written in Golang. Using Redis as a cache. Using Nats to receive data from other microservices."
+      ]
+    },
+    {
+      "company": "Freelance",
+      "position": "Software Engineer",
+      "website": "www.discoverynetworks.se",
+      "startDate": "2016-08-01",
+      "endDate": "2016-12-27",
+      "summary": "Web development in Clojure and Clojurescript",
+      "highlights": [
+        "Full stack web development in Clojure and ClojureScript using PostgreSQL as database.",
+        "Part of the project can be found on github https://github.com/veggiemonk/guestbook"
+      ]
+    },
+    {
+      "company": "Group S - HR Partner",
+      "position": "Software Engineer",
+      "website": "www.groups.be",
+      "startDate": "2014-05-01",
+      "endDate": "2016-07-31",
+      "summary": "Web development in Javascript",
+      "highlights": [
+        "Analysis, development, maintenance, support of Single Page Application with Redux + React, ES6+, JSX, SaSS, Mocha, Chai, Sinon, Localization: EN, FR, NL",
+        "Backend  written in Java 8 (Tomcat 8, JAX-RS, Hibernate, JUNIT) connecting to Oracle 11g, MySQL, cache (Redis) and a secure FTP server (proprietary) containing sensitive documents (accounting, payroll, salary, ...)",
+        "Important security considerations about software development on the web."
+      ]
+    },
+    {
+      "company": "Group S - HR Partner",
+      "position": "Site Reliability Engineer",
+      "website": "www.groups.be",
+      "startDate": "2014-05-01",
+      "endDate": "2016-07-31",
+      "summary": "Teaching DevOps and Agile methodology to developers to improve critical production services (payroll) reliability",
+      "highlights": [
+        "Building a whole CI/CD pipeline with Jenkins (Java app), Gitlab-CI (Javascript) and custom application (node.js) while introducing git",
+        "Gather logs and statistics from web applications and servers + alerting developers (email only) when a customer has an error.",
+        "Presentations to teams, Code quality check with SonarQube, writing reports for conferences, meetings, projects requirements analysis. "
+      ]
+    },
+    {
+      "company": "Share2Grow",
+      "position": "Partner",
+      "website": "www.share2grow.be",
+      "startDate": "2014-02-01",
+      "endDate": "2016-07-31",
+      "summary": "Server operations. Developing web and mobile solutions. Full stack developer Java/JavaScript",
+      "highlights": [
+        "Startup experience, lots of technology assessment and technical business analysis.",
+        "Web Development with  Node.js/Express, Python programming, mobile application development with GoogleWebToolkit GWT.",
+        "Linux Server administration, lots of self hosted solution."
+      ]
+    },
+    {
+      "company": "Universitat Politècnica de Catalunya",
+      "position": "Researcher",
+      "website": "https://www.upc.edu",
+      "startDate": "2006-09-01",
+      "endDate": "2007-02-31",
+      "summary": "Master thesis over the MPLS protocol (data layer 2). Network server operations. Linux kernel programming",
+      "highlights": [
+        "Linux Kernel Module development in C with mpls-linux (https://sourceforge.net/projects/mpls-linux/‎)",
+        "Advanced Bash scripting",
+        "Advanced Networking in Linux Kernel with QoS and various queue model (such as Weighted Fair Queuing)",
+        "Network load testing with tc (traffic control command), iptables, quagga, tcpdump.",
+        "Virtualization of Network with Linux Containers (Netkit http://wiki.netkit.org) with LXC"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Namur, Belgium",
+      "area": "Master of Science in Computer Science",
+      "website": "www.unamur.be",
+      "studyType": "Master",
+      "startDate": "2002-09-01",
+      "endDate": "2007-09-01",
+      "gpa": "4.0",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "90",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React.js",
+        "Redux",
+        "ES6+",
+        "SaSS",
+        "Clojurescript",
+        "git"
+      ]
+    },
+    {
+      "name": "Container",
+      "level": "80",
+      "keywords": [
+        "container",
+        "deployment",
+        "devops",
+        "docker",
+        "kubernetes"
+      ]
+    },
+    {
+      "name": "Software Engineering",
+      "level": "90",
+      "keywords": [
+        "Agile Methodologies",
+        "Test Driven Development",
+        "Functional programming",
+        "Unit test",
+        "Scalability",
+        "Serverless",
+        "Node.js",
+        "Golang",
+        "Python",
+        "Java",
+        "Clojure",
+        "Haskell"
+      ]
+    },
+    {
+      "name": "Continuous Integration / Continuous Deployment",
+      "level": "70",
+      "keywords": [
+        "Git",
+        "Gitlab",
+        "Github",
+        "Pull Request",
+        "Deployment",
+        "Jenkins",
+        "Kubernetes",
+        "Container",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Monitoring",
+      "level": "65",
+      "keywords": [
+        "Prometheus",
+        "ElasticSearch",
+        "Kibana",
+        "Graphana",
+        "Logging"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "75",
+      "keywords": [
+        "Redis",
+        "MongoDB",
+        "PostgreSQL",
+        "NoSQL",
+        "ElasticSearch",
+        "CouchDB",
+        "Filesystem"
+      ]
+    },
+    {
+      "name": "Networking",
+      "level": "70",
+      "keywords": [
+        "TCP/IP",
+        "Linux",
+        "Service mesh",
+        "IPv6",
+        "SSH",
+        "MTU",
+        "MPLS",
+        "OSI"
+      ]
+    },
+    {
+      "name": "Automation",
+      "level": "75",
+      "keywords": [
+        "Ansible",
+        "Bash",
+        "SaltStack",
+        "Terraform",
+        "Cloud computing",
+        "AWS",
+        "GCP"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jari Kemi",
+      "role": "Backend Craftman - Independant contractor",
+      "relationship": "I worked with Jari in the same team",
+      "position": "Software Engineer @ Unity"
+    },
+    {
+      "name": "Segrel Koskentausta",
+      "role": "Manager @ Unity",
+      "relationship": "I reported directly to Segrel",
+      "position": "Software Engineer @ Unity"
+    },
+    {
+      "name": "Nassor Silva",
+      "role": "Software Engineer @ Unity",
+      "relationship": "I worked with Nassor in the same team",
+      "position": "Software Engineer @ Unity"
+    },
+    {
+      "name": "Janne Sinivirta",
+      "role": "Principal Software Architect @ Nitor",
+      "relationship": "Janne was the manager of another team",
+      "position": "Software Engineer @ Unity"
+    },
+    {
+      "name": "Francois Remy",
+      "role": "Program Manager @ Microsoft",
+      "relationship": "I worked with Francois in the same team",
+      "position": "Site Reliability Engineer @ Group S"
+    }
+  ]
+}
