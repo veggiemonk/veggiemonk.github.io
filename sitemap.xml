@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://veggiemonk.github.io/post/google_cloud_training/</loc>
+    <lastmod>2018-05-23T17:10:48+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://veggiemonk.github.io/post/those-bash-commands-we-love/</loc>
     <lastmod>2018-05-22T14:22:13+02:00</lastmod>
   </url>
@@ -14,7 +19,7 @@
   
   <url>
     <loc>https://veggiemonk.github.io/tags/automation/</loc>
-    <lastmod>2018-05-22T14:22:13+02:00</lastmod>
+    <lastmod>2018-05-23T17:10:48+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -47,11 +52,13 @@
   
   <url>
     <loc>https://veggiemonk.github.io/tags/cloud/</loc>
+    <lastmod>2018-05-23T17:10:48+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://veggiemonk.github.io/tags/container/</loc>
+    <lastmod>2018-05-23T17:10:48+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -74,14 +81,20 @@
   </url>
   
   <url>
+    <loc>https://veggiemonk.github.io/tags/google/</loc>
+    <lastmod>2018-05-23T17:10:48+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://veggiemonk.github.io/</loc>
-    <lastmod>2018-05-22T14:22:13+02:00</lastmod>
+    <lastmod>2018-05-23T17:10:48+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://veggiemonk.github.io/tags/kubernetes/</loc>
-    <lastmod>2018-05-22T14:22:13+02:00</lastmod>
+    <lastmod>2018-05-23T17:10:48+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -92,7 +105,7 @@
   
   <url>
     <loc>https://veggiemonk.github.io/post/</loc>
-    <lastmod>2018-05-22T14:22:13+02:00</lastmod>
+    <lastmod>2018-05-23T17:10:48+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -103,7 +116,7 @@
   
   <url>
     <loc>https://veggiemonk.github.io/tags/</loc>
-    <lastmod>2018-05-22T14:22:13+02:00</lastmod>
+    <lastmod>2018-05-23T17:10:48+02:00</lastmod>
     <priority>0</priority>
   </url>
   

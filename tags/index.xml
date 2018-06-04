@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Julien Bisconti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 May 2018 14:22:13 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 23 May 2018 17:10:48 +0200</lastBuildDate>
     
 	<atom:link href="https://veggiemonk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Automation</title>
       <link>https://veggiemonk.github.io/tags/automation/</link>
-      <pubDate>Tue, 22 May 2018 14:22:13 +0200</pubDate>
+      <pubDate>Wed, 23 May 2018 17:10:48 +0200</pubDate>
       
       <guid>https://veggiemonk.github.io/tags/automation/</guid>
       <description></description>
@@ -50,7 +50,7 @@
     <item>
       <title>Cloud</title>
       <link>https://veggiemonk.github.io/tags/cloud/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 23 May 2018 17:10:48 +0200</pubDate>
       
       <guid>https://veggiemonk.github.io/tags/cloud/</guid>
       <description></description>
@@ -59,7 +59,7 @@
     <item>
       <title>Container</title>
       <link>https://veggiemonk.github.io/tags/container/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 23 May 2018 17:10:48 +0200</pubDate>
       
       <guid>https://veggiemonk.github.io/tags/container/</guid>
       <description></description>
@@ -93,9 +93,18 @@
     </item>
     
     <item>
+      <title>Google</title>
+      <link>https://veggiemonk.github.io/tags/google/</link>
+      <pubDate>Wed, 23 May 2018 17:10:48 +0200</pubDate>
+      
+      <guid>https://veggiemonk.github.io/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Kubernetes</title>
       <link>https://veggiemonk.github.io/tags/kubernetes/</link>
-      <pubDate>Tue, 22 May 2018 14:22:13 +0200</pubDate>
+      <pubDate>Wed, 23 May 2018 17:10:48 +0200</pubDate>
       
       <guid>https://veggiemonk.github.io/tags/kubernetes/</guid>
       <description></description>
