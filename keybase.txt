@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jbisconti
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://veggiemonk.github.io
+  * I am jbisconti (https://keybase.io/jbisconti) on keybase.
+  * I have a public key ASAvfjo-DwSJ4vxfSOY_eQTNExUvvJLQhlkUeNhEPja35Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01202f7e3a3e0f0489e2fc5f48e63f7904cd13152fbc92d086591478d8443e36b7e40a",
+      "host": "keybase.io",
+      "kid": "01202f7e3a3e0f0489e2fc5f48e63f7904cd13152fbc92d086591478d8443e36b7e40a",
+      "uid": "196f301b1a09527737ae5ed22bfca419",
+      "username": "jbisconti"
+    },
+    "merkle_root": {
+      "ctime": 1528987607,
+      "hash": "92c9e4cee47237641f2c620ce152003dc61f14ea13341c3335ef8875437e07ec1a934b7ebfc4eeb639906abf7834d0f5a2e69e324f86fd048129b02336c037d5",
+      "hash_meta": "8eed86826a2e4ae107d22a598a062336d1a078cd0e2eb7c20e7bf740c1f906f6",
+      "seqno": 3076665
+    },
+    "service": {
+      "entropy": "86TAFkwdxjjPYweLGxHFuXaL",
+      "hostname": "veggiemonk.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.0.0"
+  },
+  "ctime": 1528987628,
+  "expire_in": 504576000,
+  "prev": "03a86c11f4fff466d94d11cf9ad3838d955fc389d23d08d95158ac52e7773aee",
+  "seqno": 68,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgL346Pg8EieL8X0jmP3kEzRMVL7yS0IZZFHjYRD42t+QKp3BheWxvYWTESpcCRMQgA6hsEfT/9GbZTRHPmtODjZVfw4nSPQjZUVisUud3Ou7EIH6E+pKAMJKjmPHZxH3IVOKQSB7YyuHsMh6aqv7TmJ37AgHCo3NpZ8RAugk+DAD/+RRmrQFBNr5+4DxDHx/Xg7C3nLQxS3cItHJ3LRmALBwGfFgl/WzaJ3OFQOfQycEbcrj8p3+MsrtNBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJAxpjH1+/R08MJUtUeoRk7NY2XoCV3xM40Dy3Sgjd/Xo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jbisconti
+
+==================================================================
