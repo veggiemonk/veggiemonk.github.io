@@ -17,7 +17,7 @@
       <pubDate>Tue, 06 Dec 2016 19:54:04 +0700</pubDate>
       
       <guid>https://veggiemonk.github.io/post/simple-http-request-in-cljs/</guid>
-      <description>In ClojureScript, there is a very helpful library that is a wrapper around XHR. It is called cljs-http.
+      <description>ClojureScript HTTP data fetching In ClojureScript, there is a very helpful library that is a wrapper around XHR. It is called cljs-http.
 In order to use it, we have to use the core.async library. core.async was design to work on the JVM to handle concurrent threads. JavaScript is single threaded but the concept is the same: passing message.
 Simple HTTP request It is helpful to know how to get data from a server when building a website or an app.</description>
     </item>

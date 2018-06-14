@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>🔗 ClojureScript HTTP data fetching</title>
+        <title>Http</title>
         
         <style>
 
@@ -61,6 +61,9 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.41" />
         
+        <link href="https://veggiemonk.github.io/tags/http/index.xml" rel="alternate" type="application/rss+xml" title="Julien Bisconti" />
+        <link href="https://veggiemonk.github.io/tags/http/index.xml" rel="feed" type="application/rss+xml" title="Julien Bisconti" />
+        
 
         
     </head>
@@ -80,7 +83,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">🔗 ClojureScript HTTP data fetching</a>
+                    <a class="navbar-brand visible-xs" href="#">Http</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -127,7 +130,9 @@
 
 <main>
 
-    <div class="item">
+    <h2>Http</h2>
+
+     <div class="item">
 
     
     
@@ -153,103 +158,11 @@
     
 
 </div>
-
-
-    <br> <div class="text-justify">
-
-<h1 id="clojurescript-http-data-fetching">ClojureScript HTTP data fetching</h1>
-
-<p>In ClojureScript, there is a very helpful library that is a wrapper around XHR. It is called <a href="https://github.com/r0man/cljs-http">cljs-http</a>.</p>
-
-<p>In order to use it, we have to use the <code>core.async</code> library. <code>core.async</code> was design to work on the JVM to handle concurrent threads. JavaScript is single threaded but the concept is the same: passing message.</p>
-
-<h2 id="simple-http-request">Simple HTTP request</h2>
-
-<p>It is  helpful to know how to get data from a server when building a website or an app. It is a simple use case so here is an example of a <code>GET</code> request:</p>
-
-<pre><code class="language-clojure">;; require core.async and cljs-http
-(ns example.core
-  (:require-macros [cljs.core.async.macros :refer [go]])
-  (:require [cljs-http.client :as http]
-            [cljs.core.async :refer [&lt;!]]))
-
-;; request
-(go (let [response (&lt;! (http/get &quot;https://api.github.com/users&quot;
-                                ;; parameters
-                                 {:with-credentials? false
-                                  :query-params {&quot;since&quot; 135}}))]
-      (prn  (:body response)))) ;; print the response's body in the console
-</code></pre>
-
-<p>By the way, if the server returns data as JSON, the response will be automatically converted to EDN. So there is no extra work than the piece of code outlined above.
-Now that you have your data, you have to extract what you need. There is a good tutorial that talks about
-<a href="http://xahlee.info/clojure/clojure_binding_forms.html">destructuring</a>.</p>
-
-<h2 id="core-async">Core.async</h2>
-
-<p>The <code>go</code> macro is part of <code>core.async</code> library as well as <code>&lt;!</code> function which is use to extract message from the channel.
-You can read all about <a href="http://www.braveclojure.com/core-async/">concurrent process and channels here</a>.</p>
-
-<p>All HTTP functions in <code>cljs-http</code> return a <code>core.async channel</code>.
-When a request has completed or failed it is written on that channel.
-The response can be extracted with the <code>&lt;!</code> function inside a <code>go</code> block. I am not completely sure why but I know it has something to do with the fact that <code>go</code> is a macro. (If you know why, please leave a comment below).</p>
-
-<h2 id="custom-headers">Custom Headers</h2>
-
-<p>Sometimes you need to add a header such as &ldquo;Authorization&rdquo; (Github requires it).</p>
-
-<pre><code class="language-clojure">(go
-  (let [response (&lt;! (http/post &quot;https://api.github.com/graphql&quot;
-                                {:with-credentials? false
-                                 :headers {&quot;Authorization&quot; &quot;SuperSecretToken1234&quot;}
-                                 :json-params {:query &quot;query { viewer { login }}&quot;}}))]
-      (prn (:data (:body response)))))
-</code></pre>
-
-<p>With that you can go and start testing ClojureScript to your heart&rsquo;s delight and with data coming from a server.</p>
-
-<p>Happy prototyping&hellip;</p>
-</div>
-
-    <div>
-        <a href="https://twitter.com/intent/tweet?original_referer=https%3a%2f%2fveggiemonk.github.io%2fpost%2fsimple-http-request-in-cljs%2f&amp;text=%f0%9f%94%97%20ClojureScript%20HTTP%20data%20fetching&amp;tw_p=tweetbutton&amp;url=https%3a%2f%2fveggiemonk.github.io%2fpost%2fsimple-http-request-in-cljs%2f&amp;via=veggiemonk" rel="nofollow" target="_blank" title="tweeting">(tweet this post)
-            <span style="text-decoration: underline"></span>
-        </a>
-    </div>
-
-    
-    
-
-    
-
-    
-
-        <h4 class="page-header">Comments</h4>
-
-        <div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "https-veggiemonk-github-io-post" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-    
+ 
 
 </main>
+
+
 
         <footer>
 
