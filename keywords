@@ -1,0 +1,27 @@
+DevOps
+developer tools
+dev environment
+software release management
+code organization and management
+peer review
+deployment pipeline
+build pipeline
+dependency management
+API design
+Agile techniques
+Platform operation
+Linux server administration (ubuntu, gentoo)
+Kubernetes
+Serverless
+containerizing application
+database cluster management (Redis)
+Logs and analytics with ELK
+Monitoring with prometheus
+Troubleshoot and escalate bugs for our Live server product
+Automation tools such as Ansible, SaltStack
+Deploy and maintain international server environment for 24/7 critical uptime business product offering in a Linux environment.
+Write automation/self-healing scripts in Python / BASH / JavaScript / Go for developer environment
+Collect and maintain a complete inventory of all systems. Identify and retire unused systems to recycle resources and reduce maintenance costs.
+Familiar with Six Sigma methodologies, FDA quality systems regulations and product reliability standards
+conducting root cause analysis
+Chaos testing production environment on Kubernetes
