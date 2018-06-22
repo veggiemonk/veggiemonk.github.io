@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Service Mesh on Julien Bisconti</title>
+    <link>https://veggiemonk.github.io/tags/service-mesh/</link>
+    <description>Recent content in Service Mesh on Julien Bisconti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Jun 2018 23:03:28 +0200</lastBuildDate>
+    
+	<atom:link href="https://veggiemonk.github.io/tags/service-mesh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chaos Engineering With Service Mesh</title>
+      <link>https://veggiemonk.github.io/post/chaos-engineering-with-service-mesh/</link>
+      <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
+      
+      <guid>https://veggiemonk.github.io/post/chaos-engineering-with-service-mesh/</guid>
+      <description>I&amp;rsquo;ve been trying out Istio for a while now in order to fully grasp what is a service mesh and how to set it up. I made a presentation for the local CNCF meetup in Stockholm where I live.
+  Chaos eng-service-mesh  from Julien Bisconti 
+The demo took the most time to prepare and there was a lot of material to cover but it got me going. Hopefully, I can record the presentation and put it online.</description>
+    </item>
+    
+  </channel>
+</rss>
