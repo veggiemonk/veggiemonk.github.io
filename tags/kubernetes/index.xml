@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Chaos Engineering Working Group</title>
+      <link>https://veggiemonk.github.io/project/cewg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://veggiemonk.github.io/project/cewg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Chaos Engineering With Service Mesh</title>
       <link>https://veggiemonk.github.io/post/chaos-engineering-with-service-mesh/</link>
       <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
@@ -48,15 +57,6 @@ The demo took the most time to prepare and there was a lot of material to cover 
       <guid>https://veggiemonk.github.io/post/those-bash-commands-we-love/</guid>
       <description>The era of the terminal Looking back at the time of the mainframe with dummy terminal clients and their black/green screen, it makes me wonder if things really change that much. I guess it&amp;rsquo;s like in everything, some things change, some don&amp;rsquo;t. Deal with it.
 If you spend a decent amount of time in a terminal, you might have realized that there are some tasks that are tedious and error prone such as copy pasting a super long string (ssh public key) or some pods name from a kubernetes cluster.</description>
-    </item>
-    
-    <item>
-      <title>Chaos Engineering Working Group</title>
-      <link>https://veggiemonk.github.io/project/cewg/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://veggiemonk.github.io/project/cewg/</guid>
-      <description></description>
     </item>
     
   </channel>

@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Chaos Engineering Working Group</title>
+      <link>https://veggiemonk.github.io/project/cewg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://veggiemonk.github.io/project/cewg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Chaos Engineering With Service Mesh</title>
       <link>https://veggiemonk.github.io/post/chaos-engineering-with-service-mesh/</link>
       <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
@@ -67,15 +76,6 @@ Simple HTTP request It is helpful to know how to get data from a server when bui
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://veggiemonk.github.io/project/kim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Chaos Engineering Working Group</title>
-      <link>https://veggiemonk.github.io/project/cewg/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://veggiemonk.github.io/project/cewg/</guid>
       <description></description>
     </item>
     
