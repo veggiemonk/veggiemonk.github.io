@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Ansible</title>
+      <link>https://veggiemonk.github.io/tags/ansible/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://veggiemonk.github.io/tags/ansible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Automation</title>
       <link>https://veggiemonk.github.io/tags/automation/</link>
       <pubDate>Wed, 23 May 2018 17:10:48 +0200</pubDate>
@@ -66,6 +75,15 @@
     </item>
     
     <item>
+      <title>Code</title>
+      <link>https://veggiemonk.github.io/tags/code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://veggiemonk.github.io/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Container</title>
       <link>https://veggiemonk.github.io/tags/container/</link>
       <pubDate>Wed, 23 May 2018 17:10:48 +0200</pubDate>
@@ -84,11 +102,38 @@
     </item>
     
     <item>
+      <title>Database</title>
+      <link>https://veggiemonk.github.io/tags/database/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://veggiemonk.github.io/tags/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dev</title>
+      <link>https://veggiemonk.github.io/tags/dev/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://veggiemonk.github.io/tags/dev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Docker</title>
       <link>https://veggiemonk.github.io/tags/docker/</link>
       <pubDate>Tue, 22 May 2018 14:22:13 +0200</pubDate>
       
       <guid>https://veggiemonk.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimation</title>
+      <link>https://veggiemonk.github.io/tags/estimation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://veggiemonk.github.io/tags/estimation/</guid>
       <description></description>
     </item>
     
@@ -129,6 +174,15 @@
     </item>
     
     <item>
+      <title>Javascript</title>
+      <link>https://veggiemonk.github.io/tags/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://veggiemonk.github.io/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Kubernetes</title>
       <link>https://veggiemonk.github.io/tags/kubernetes/</link>
       <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
@@ -156,6 +210,24 @@
     </item>
     
     <item>
+      <title>Redis</title>
+      <link>https://veggiemonk.github.io/tags/redis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://veggiemonk.github.io/tags/redis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Server</title>
+      <link>https://veggiemonk.github.io/tags/server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://veggiemonk.github.io/tags/server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Service Mesh</title>
       <link>https://veggiemonk.github.io/tags/service-mesh/</link>
       <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
@@ -179,6 +251,15 @@
       <pubDate>Tue, 06 Dec 2016 19:54:04 +0700</pubDate>
       
       <guid>https://veggiemonk.github.io/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zsh</title>
+      <link>https://veggiemonk.github.io/tags/zsh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://veggiemonk.github.io/tags/zsh/</guid>
       <description></description>
     </item>
     

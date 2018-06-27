@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://veggiemonk.github.io/project/docker/</loc>
+  </url>
+  
+  <url>
     <loc>https://veggiemonk.github.io/post/chaos-engineering-with-service-mesh/</loc>
     <lastmod>2018-06-22T23:03:28+02:00</lastmod>
   </url>
@@ -23,13 +27,18 @@
   </url>
   
   <url>
-    <loc>https://veggiemonk.github.io/tags/automation/</loc>
-    <lastmod>2018-05-23T17:10:48+02:00</lastmod>
+    <loc>https://veggiemonk.github.io/tags/ansible/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://veggiemonk.github.io/project/docker/</loc>
+    <loc>https://veggiemonk.github.io/project/kim/</loc>
+  </url>
+  
+  <url>
+    <loc>https://veggiemonk.github.io/tags/automation/</loc>
+    <lastmod>2018-05-23T17:10:48+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -47,6 +56,10 @@
     <loc>https://veggiemonk.github.io/tags/chaos-engineering/</loc>
     <lastmod>2018-06-22T23:03:28+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://veggiemonk.github.io/project/cewg/</loc>
   </url>
   
   <url>
@@ -68,6 +81,11 @@
   </url>
   
   <url>
+    <loc>https://veggiemonk.github.io/tags/code/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://veggiemonk.github.io/tags/container/</loc>
     <lastmod>2018-05-23T17:10:48+02:00</lastmod>
     <priority>0</priority>
@@ -80,8 +98,23 @@
   </url>
   
   <url>
+    <loc>https://veggiemonk.github.io/tags/database/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://veggiemonk.github.io/tags/dev/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://veggiemonk.github.io/tags/docker/</loc>
     <lastmod>2018-05-22T14:22:13+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://veggiemonk.github.io/tags/estimation/</loc>
     <priority>0</priority>
   </url>
   
@@ -106,6 +139,11 @@
   <url>
     <loc>https://veggiemonk.github.io/tags/istio/</loc>
     <lastmod>2018-06-22T23:03:28+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://veggiemonk.github.io/tags/javascript/</loc>
     <priority>0</priority>
   </url>
   
@@ -144,6 +182,20 @@
   </url>
   
   <url>
+    <loc>https://veggiemonk.github.io/tags/redis/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://veggiemonk.github.io/project/redis-data/</loc>
+  </url>
+  
+  <url>
+    <loc>https://veggiemonk.github.io/tags/server/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://veggiemonk.github.io/tags/service-mesh/</loc>
     <lastmod>2018-06-22T23:03:28+02:00</lastmod>
     <priority>0</priority>
@@ -162,8 +214,17 @@
   </url>
   
   <url>
+    <loc>https://veggiemonk.github.io/project/theme-vscode/</loc>
+  </url>
+  
+  <url>
     <loc>https://veggiemonk.github.io/tags/web/</loc>
     <lastmod>2016-12-06T19:54:04+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://veggiemonk.github.io/tags/zsh/</loc>
     <priority>0</priority>
   </url>
   

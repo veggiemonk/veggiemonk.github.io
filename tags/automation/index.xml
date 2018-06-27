@@ -30,5 +30,14 @@
 If you spend a decent amount of time in a terminal, you might have realized that there are some tasks that are tedious and error prone such as copy pasting a super long string (ssh public key) or some pods name from a kubernetes cluster.</description>
     </item>
     
+    <item>
+      <title>Ansible Oh-my-Zsh</title>
+      <link>https://veggiemonk.github.io/project/kim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://veggiemonk.github.io/project/kim/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
