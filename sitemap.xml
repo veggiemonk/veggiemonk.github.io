@@ -7,6 +7,10 @@
   </url>
   
   <url>
+    <loc>https://veggiemonk.github.io/project/cewg/</loc>
+  </url>
+  
+  <url>
     <loc>https://veggiemonk.github.io/post/chaos-engineering-with-service-mesh/</loc>
     <lastmod>2018-06-22T23:03:28+02:00</lastmod>
   </url>
@@ -56,10 +60,6 @@
     <loc>https://veggiemonk.github.io/tags/chaos-engineering/</loc>
     <lastmod>2018-06-22T23:03:28+02:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/project/cewg/</loc>
   </url>
   
   <url>

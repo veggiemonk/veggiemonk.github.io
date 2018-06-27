@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Chaos Engineering Working Group</title>
+      <link>https://veggiemonk.github.io/project/cewg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://veggiemonk.github.io/project/cewg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Chaos Engineering With Service Mesh</title>
       <link>https://veggiemonk.github.io/post/chaos-engineering-with-service-mesh/</link>
       <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
@@ -38,15 +47,6 @@ The demo took the most time to prepare and there was a lot of material to cover 
       
       <guid>https://veggiemonk.github.io/post/google_cloud_training/</guid>
       <description>1 day free event workshop in Stockholm It&amp;rsquo;s a one day event where anybody can attend for free in order to see what&amp;rsquo;s available in the cloud build by Google. Here is what the summary of that day. At 8.00 sharp, the doors open to many people who were already waiting. By waiting I mean playing with their phone, like I&amp;rsquo;m doing right now because I&amp;rsquo;m writing this blog post.</description>
-    </item>
-    
-    <item>
-      <title>Chaos Engineering Working Group</title>
-      <link>https://veggiemonk.github.io/project/cewg/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://veggiemonk.github.io/project/cewg/</guid>
-      <description></description>
     </item>
     
     <item>
