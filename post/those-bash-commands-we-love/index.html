@@ -242,6 +242,11 @@ while true; do
 done
 </code></pre>
 
+<h3 id="remove-all-git-branches-except-master">Remove all git branches except master</h3>
+
+<pre><code class="language-bash">for i in $(git branch); do echo $i | grep -v -e 'master' -e \* | xargs git branch -D ; done
+</code></pre>
+
 <h2 id="evaluating">Evaluating</h2>
 
 <p>Sometimes we need to copy-paste the content of a file:</p>
