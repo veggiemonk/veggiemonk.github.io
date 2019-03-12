@@ -2,56 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Julien Bisconti</title>
-    <link>https://veggiemonk.github.io/project/</link>
+    <link>https://average.joe.dev/project/</link>
     <description>Recent content in Projects on Julien Bisconti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://veggiemonk.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://average.joe.dev/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Awesome-Docker</title>
-      <link>https://veggiemonk.github.io/project/docker/</link>
+      <link>https://average.joe.dev/project/docker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://veggiemonk.github.io/project/docker/</guid>
+      <guid>https://average.joe.dev/project/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chaos Engineering Working Group</title>
-      <link>https://veggiemonk.github.io/project/cewg/</link>
+      <link>https://average.joe.dev/project/cewg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://veggiemonk.github.io/project/cewg/</guid>
+      <guid>https://average.joe.dev/project/cewg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ansible Oh-my-Zsh</title>
-      <link>https://veggiemonk.github.io/project/kim/</link>
+      <link>https://average.joe.dev/project/kim/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://veggiemonk.github.io/project/kim/</guid>
+      <guid>https://average.joe.dev/project/kim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Redis data estimation</title>
-      <link>https://veggiemonk.github.io/project/redis-data/</link>
+      <link>https://average.joe.dev/project/redis-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://veggiemonk.github.io/project/redis-data/</guid>
+      <guid>https://average.joe.dev/project/redis-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VS Code theme for JavaScript</title>
-      <link>https://veggiemonk.github.io/project/theme-vscode/</link>
+      <link>https://average.joe.dev/project/theme-vscode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://veggiemonk.github.io/project/theme-vscode/</guid>
+      <guid>https://average.joe.dev/project/theme-vscode/</guid>
       <description></description>
     </item>
     

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dev on Julien Bisconti</title>
-    <link>https://veggiemonk.github.io/tags/dev/</link>
+    <link>https://average.joe.dev/tags/dev/</link>
     <description>Recent content in Dev on Julien Bisconti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://veggiemonk.github.io/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://average.joe.dev/tags/dev/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VS Code theme for JavaScript</title>
-      <link>https://veggiemonk.github.io/project/theme-vscode/</link>
+      <link>https://average.joe.dev/project/theme-vscode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://veggiemonk.github.io/project/theme-vscode/</guid>
+      <guid>https://average.joe.dev/project/theme-vscode/</guid>
       <description></description>
     </item>
     

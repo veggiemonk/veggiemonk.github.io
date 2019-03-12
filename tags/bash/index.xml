@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bash on Julien Bisconti</title>
-    <link>https://veggiemonk.github.io/tags/bash/</link>
+    <link>https://average.joe.dev/tags/bash/</link>
     <description>Recent content in Bash on Julien Bisconti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 22 May 2018 14:22:13 +0200</lastBuildDate>
     
-	<atom:link href="https://veggiemonk.github.io/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://average.joe.dev/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>💻 Those bash commands we love</title>
-      <link>https://veggiemonk.github.io/post/those-bash-commands-we-love/</link>
+      <link>https://average.joe.dev/post/those-bash-commands-we-love/</link>
       <pubDate>Tue, 22 May 2018 14:22:13 +0200</pubDate>
       
-      <guid>https://veggiemonk.github.io/post/those-bash-commands-we-love/</guid>
+      <guid>https://average.joe.dev/post/those-bash-commands-we-love/</guid>
       <description>The era of the terminal Looking back at the time of the mainframe with dummy terminal clients and their black/green screen, it makes me wonder if things really change that much. I guess it&amp;rsquo;s like in everything, some things change, some don&amp;rsquo;t. Deal with it.
 If you spend a decent amount of time in a terminal, you might have realized that there are some tasks that are tedious and error prone such as copy pasting a super long string (ssh public key) or some pods name from a kubernetes cluster.</description>
     </item>

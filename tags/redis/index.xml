@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Redis on Julien Bisconti</title>
-    <link>https://veggiemonk.github.io/tags/redis/</link>
+    <link>https://average.joe.dev/tags/redis/</link>
     <description>Recent content in Redis on Julien Bisconti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://veggiemonk.github.io/tags/redis/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://average.joe.dev/tags/redis/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Redis data estimation</title>
-      <link>https://veggiemonk.github.io/project/redis-data/</link>
+      <link>https://average.joe.dev/project/redis-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://veggiemonk.github.io/project/redis-data/</guid>
+      <guid>https://average.joe.dev/project/redis-data/</guid>
       <description></description>
     </item>
     
