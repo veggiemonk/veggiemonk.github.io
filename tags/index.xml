@@ -2,264 +2,264 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Julien Bisconti</title>
-    <link>https://veggiemonk.github.io/tags/</link>
+    <link>https://average.joe.dev/tags/</link>
     <description>Recent content in Tags on Julien Bisconti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 23 May 2018 17:10:48 +0200</lastBuildDate>
     
-	<atom:link href="https://veggiemonk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://average.joe.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ansible</title>
-      <link>https://veggiemonk.github.io/tags/ansible/</link>
+      <link>https://average.joe.dev/tags/ansible/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/ansible/</guid>
+      <guid>https://average.joe.dev/tags/ansible/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Automation</title>
-      <link>https://veggiemonk.github.io/tags/automation/</link>
+      <link>https://average.joe.dev/tags/automation/</link>
       <pubDate>Wed, 23 May 2018 17:10:48 +0200</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/automation/</guid>
+      <guid>https://average.joe.dev/tags/automation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bash</title>
-      <link>https://veggiemonk.github.io/tags/bash/</link>
+      <link>https://average.joe.dev/tags/bash/</link>
       <pubDate>Tue, 22 May 2018 14:22:13 +0200</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/bash/</guid>
+      <guid>https://average.joe.dev/tags/bash/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chaos Engineering</title>
-      <link>https://veggiemonk.github.io/tags/chaos-engineering/</link>
+      <link>https://average.joe.dev/tags/chaos-engineering/</link>
       <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/chaos-engineering/</guid>
+      <guid>https://average.joe.dev/tags/chaos-engineering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Clojure</title>
-      <link>https://veggiemonk.github.io/tags/clojure/</link>
+      <link>https://average.joe.dev/tags/clojure/</link>
       <pubDate>Tue, 06 Dec 2016 19:54:04 +0700</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/clojure/</guid>
+      <guid>https://average.joe.dev/tags/clojure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Clojurescript</title>
-      <link>https://veggiemonk.github.io/tags/clojurescript/</link>
+      <link>https://average.joe.dev/tags/clojurescript/</link>
       <pubDate>Tue, 06 Dec 2016 19:54:04 +0700</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/clojurescript/</guid>
+      <guid>https://average.joe.dev/tags/clojurescript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cloud</title>
-      <link>https://veggiemonk.github.io/tags/cloud/</link>
+      <link>https://average.joe.dev/tags/cloud/</link>
       <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/cloud/</guid>
+      <guid>https://average.joe.dev/tags/cloud/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Code</title>
-      <link>https://veggiemonk.github.io/tags/code/</link>
+      <link>https://average.joe.dev/tags/code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/code/</guid>
+      <guid>https://average.joe.dev/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Container</title>
-      <link>https://veggiemonk.github.io/tags/container/</link>
+      <link>https://average.joe.dev/tags/container/</link>
       <pubDate>Wed, 23 May 2018 17:10:48 +0200</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/container/</guid>
+      <guid>https://average.joe.dev/tags/container/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data</title>
-      <link>https://veggiemonk.github.io/tags/data/</link>
+      <link>https://average.joe.dev/tags/data/</link>
       <pubDate>Tue, 06 Dec 2016 19:54:04 +0700</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/data/</guid>
+      <guid>https://average.joe.dev/tags/data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Database</title>
-      <link>https://veggiemonk.github.io/tags/database/</link>
+      <link>https://average.joe.dev/tags/database/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/database/</guid>
+      <guid>https://average.joe.dev/tags/database/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dev</title>
-      <link>https://veggiemonk.github.io/tags/dev/</link>
+      <link>https://average.joe.dev/tags/dev/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/dev/</guid>
+      <guid>https://average.joe.dev/tags/dev/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Docker</title>
-      <link>https://veggiemonk.github.io/tags/docker/</link>
+      <link>https://average.joe.dev/tags/docker/</link>
       <pubDate>Tue, 22 May 2018 14:22:13 +0200</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/docker/</guid>
+      <guid>https://average.joe.dev/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Estimation</title>
-      <link>https://veggiemonk.github.io/tags/estimation/</link>
+      <link>https://average.joe.dev/tags/estimation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/estimation/</guid>
+      <guid>https://average.joe.dev/tags/estimation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fetching</title>
-      <link>https://veggiemonk.github.io/tags/fetching/</link>
+      <link>https://average.joe.dev/tags/fetching/</link>
       <pubDate>Tue, 06 Dec 2016 19:54:04 +0700</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/fetching/</guid>
+      <guid>https://average.joe.dev/tags/fetching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Google</title>
-      <link>https://veggiemonk.github.io/tags/google/</link>
+      <link>https://average.joe.dev/tags/google/</link>
       <pubDate>Wed, 23 May 2018 17:10:48 +0200</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/google/</guid>
+      <guid>https://average.joe.dev/tags/google/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Http</title>
-      <link>https://veggiemonk.github.io/tags/http/</link>
+      <link>https://average.joe.dev/tags/http/</link>
       <pubDate>Tue, 06 Dec 2016 19:54:04 +0700</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/http/</guid>
+      <guid>https://average.joe.dev/tags/http/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Istio</title>
-      <link>https://veggiemonk.github.io/tags/istio/</link>
+      <link>https://average.joe.dev/tags/istio/</link>
       <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/istio/</guid>
+      <guid>https://average.joe.dev/tags/istio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javascript</title>
-      <link>https://veggiemonk.github.io/tags/javascript/</link>
+      <link>https://average.joe.dev/tags/javascript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/javascript/</guid>
+      <guid>https://average.joe.dev/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kubernetes</title>
-      <link>https://veggiemonk.github.io/tags/kubernetes/</link>
+      <link>https://average.joe.dev/tags/kubernetes/</link>
       <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/kubernetes/</guid>
+      <guid>https://average.joe.dev/tags/kubernetes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>https://veggiemonk.github.io/tags/linux/</link>
+      <link>https://average.joe.dev/tags/linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/linux/</guid>
+      <guid>https://average.joe.dev/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Presentation</title>
-      <link>https://veggiemonk.github.io/tags/presentation/</link>
+      <link>https://average.joe.dev/tags/presentation/</link>
       <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/presentation/</guid>
+      <guid>https://average.joe.dev/tags/presentation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Redis</title>
-      <link>https://veggiemonk.github.io/tags/redis/</link>
+      <link>https://average.joe.dev/tags/redis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/redis/</guid>
+      <guid>https://average.joe.dev/tags/redis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Server</title>
-      <link>https://veggiemonk.github.io/tags/server/</link>
+      <link>https://average.joe.dev/tags/server/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/server/</guid>
+      <guid>https://average.joe.dev/tags/server/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Service Mesh</title>
-      <link>https://veggiemonk.github.io/tags/service-mesh/</link>
+      <link>https://average.joe.dev/tags/service-mesh/</link>
       <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/service-mesh/</guid>
+      <guid>https://average.joe.dev/tags/service-mesh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Terminal</title>
-      <link>https://veggiemonk.github.io/tags/terminal/</link>
+      <link>https://average.joe.dev/tags/terminal/</link>
       <pubDate>Tue, 22 May 2018 14:22:13 +0200</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/terminal/</guid>
+      <guid>https://average.joe.dev/tags/terminal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web</title>
-      <link>https://veggiemonk.github.io/tags/web/</link>
+      <link>https://average.joe.dev/tags/web/</link>
       <pubDate>Tue, 06 Dec 2016 19:54:04 +0700</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/web/</guid>
+      <guid>https://average.joe.dev/tags/web/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Zsh</title>
-      <link>https://veggiemonk.github.io/tags/zsh/</link>
+      <link>https://average.joe.dev/tags/zsh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://veggiemonk.github.io/tags/zsh/</guid>
+      <guid>https://average.joe.dev/tags/zsh/</guid>
       <description></description>
     </item>
     

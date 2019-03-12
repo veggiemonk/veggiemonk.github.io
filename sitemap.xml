@@ -3,228 +3,228 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://veggiemonk.github.io/project/docker/</loc>
+    <loc>https://average.joe.dev/project/docker/</loc>
   </url>
   
   <url>
-    <loc>https://veggiemonk.github.io/project/cewg/</loc>
+    <loc>https://average.joe.dev/project/cewg/</loc>
   </url>
   
   <url>
-    <loc>https://veggiemonk.github.io/post/chaos-engineering-with-service-mesh/</loc>
+    <loc>https://average.joe.dev/post/chaos-engineering-with-service-mesh/</loc>
     <lastmod>2018-06-22T23:03:28+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://veggiemonk.github.io/post/google_cloud_training/</loc>
+    <loc>https://average.joe.dev/post/google_cloud_training/</loc>
     <lastmod>2018-05-23T17:10:48+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://veggiemonk.github.io/post/those-bash-commands-we-love/</loc>
+    <loc>https://average.joe.dev/post/those-bash-commands-we-love/</loc>
     <lastmod>2018-05-22T14:22:13+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://veggiemonk.github.io/post/simple-http-request-in-cljs/</loc>
+    <loc>https://average.joe.dev/post/simple-http-request-in-cljs/</loc>
     <lastmod>2016-12-06T19:54:04+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://veggiemonk.github.io/tags/ansible/</loc>
+    <loc>https://average.joe.dev/tags/ansible/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://veggiemonk.github.io/project/kim/</loc>
+    <loc>https://average.joe.dev/project/kim/</loc>
   </url>
   
   <url>
-    <loc>https://veggiemonk.github.io/tags/automation/</loc>
+    <loc>https://average.joe.dev/tags/automation/</loc>
     <lastmod>2018-05-23T17:10:48+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://veggiemonk.github.io/tags/bash/</loc>
-    <lastmod>2018-05-22T14:22:13+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/tags/chaos-engineering/</loc>
-    <lastmod>2018-06-22T23:03:28+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/tags/clojure/</loc>
-    <lastmod>2016-12-06T19:54:04+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/tags/clojurescript/</loc>
-    <lastmod>2016-12-06T19:54:04+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/tags/cloud/</loc>
-    <lastmod>2018-06-22T23:03:28+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/tags/code/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/tags/container/</loc>
-    <lastmod>2018-05-23T17:10:48+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/tags/data/</loc>
-    <lastmod>2016-12-06T19:54:04+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/tags/database/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/tags/dev/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/tags/docker/</loc>
+    <loc>https://average.joe.dev/tags/bash/</loc>
     <lastmod>2018-05-22T14:22:13+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://veggiemonk.github.io/tags/estimation/</loc>
+    <loc>https://average.joe.dev/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://veggiemonk.github.io/tags/fetching/</loc>
+    <loc>https://average.joe.dev/tags/chaos-engineering/</loc>
+    <lastmod>2018-06-22T23:03:28+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/clojure/</loc>
     <lastmod>2016-12-06T19:54:04+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://veggiemonk.github.io/tags/google/</loc>
-    <lastmod>2018-05-23T17:10:48+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/tags/http/</loc>
+    <loc>https://average.joe.dev/tags/clojurescript/</loc>
     <lastmod>2016-12-06T19:54:04+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://veggiemonk.github.io/tags/istio/</loc>
+    <loc>https://average.joe.dev/tags/cloud/</loc>
     <lastmod>2018-06-22T23:03:28+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://veggiemonk.github.io/tags/javascript/</loc>
+    <loc>https://average.joe.dev/tags/code/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://veggiemonk.github.io/</loc>
-    <lastmod>2018-06-22T23:03:28+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/tags/kubernetes/</loc>
-    <lastmod>2018-06-22T23:03:28+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/tags/linux/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/post/</loc>
-    <lastmod>2018-06-22T23:03:28+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/tags/presentation/</loc>
-    <lastmod>2018-06-22T23:03:28+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/project/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/tags/redis/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/project/redis-data/</loc>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/tags/server/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/tags/service-mesh/</loc>
-    <lastmod>2018-06-22T23:03:28+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://veggiemonk.github.io/tags/</loc>
+    <loc>https://average.joe.dev/tags/container/</loc>
     <lastmod>2018-05-23T17:10:48+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://veggiemonk.github.io/tags/terminal/</loc>
+    <loc>https://average.joe.dev/tags/data/</loc>
+    <lastmod>2016-12-06T19:54:04+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/database/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/dev/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/docker/</loc>
     <lastmod>2018-05-22T14:22:13+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://veggiemonk.github.io/project/theme-vscode/</loc>
+    <loc>https://average.joe.dev/tags/estimation/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://veggiemonk.github.io/tags/web/</loc>
+    <loc>https://average.joe.dev/tags/fetching/</loc>
     <lastmod>2016-12-06T19:54:04+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://veggiemonk.github.io/tags/zsh/</loc>
+    <loc>https://average.joe.dev/tags/google/</loc>
+    <lastmod>2018-05-23T17:10:48+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/http/</loc>
+    <lastmod>2016-12-06T19:54:04+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/istio/</loc>
+    <lastmod>2018-06-22T23:03:28+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/javascript/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/</loc>
+    <lastmod>2018-06-22T23:03:28+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/kubernetes/</loc>
+    <lastmod>2018-06-22T23:03:28+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/linux/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/post/</loc>
+    <lastmod>2018-06-22T23:03:28+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/presentation/</loc>
+    <lastmod>2018-06-22T23:03:28+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/project/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/redis/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/project/redis-data/</loc>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/server/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/service-mesh/</loc>
+    <lastmod>2018-06-22T23:03:28+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/</loc>
+    <lastmod>2018-05-23T17:10:48+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/terminal/</loc>
+    <lastmod>2018-05-22T14:22:13+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/project/theme-vscode/</loc>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/web/</loc>
+    <lastmod>2016-12-06T19:54:04+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/zsh/</loc>
     <priority>0</priority>
   </url>
   

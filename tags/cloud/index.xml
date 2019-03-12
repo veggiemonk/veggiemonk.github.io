@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloud on Julien Bisconti</title>
-    <link>https://veggiemonk.github.io/tags/cloud/</link>
+    <link>https://average.joe.dev/tags/cloud/</link>
     <description>Recent content in Cloud on Julien Bisconti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Jun 2018 23:03:28 +0200</lastBuildDate>
     
-	<atom:link href="https://veggiemonk.github.io/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://average.joe.dev/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Awesome-Docker</title>
-      <link>https://veggiemonk.github.io/project/docker/</link>
+      <link>https://average.joe.dev/project/docker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://veggiemonk.github.io/project/docker/</guid>
+      <guid>https://average.joe.dev/project/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chaos Engineering Working Group</title>
-      <link>https://veggiemonk.github.io/project/cewg/</link>
+      <link>https://average.joe.dev/project/cewg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://veggiemonk.github.io/project/cewg/</guid>
+      <guid>https://average.joe.dev/project/cewg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chaos Engineering With Service Mesh</title>
-      <link>https://veggiemonk.github.io/post/chaos-engineering-with-service-mesh/</link>
+      <link>https://average.joe.dev/post/chaos-engineering-with-service-mesh/</link>
       <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
       
-      <guid>https://veggiemonk.github.io/post/chaos-engineering-with-service-mesh/</guid>
+      <guid>https://average.joe.dev/post/chaos-engineering-with-service-mesh/</guid>
       <description>I&amp;rsquo;ve been trying out Istio for a while now in order to fully grasp what is a service mesh and how to set it up. I made a presentation for the local CNCF meetup in Stockholm where I live.
   Chaos eng-service-mesh  from Julien Bisconti 
 The demo took the most time to prepare and there was a lot of material to cover but it got me going. Hopefully, I can record the presentation and put it online.</description>
@@ -42,19 +42,19 @@ The demo took the most time to prepare and there was a lot of material to cover 
     
     <item>
       <title>☁️ Google Cloud Training Day</title>
-      <link>https://veggiemonk.github.io/post/google_cloud_training/</link>
+      <link>https://average.joe.dev/post/google_cloud_training/</link>
       <pubDate>Wed, 23 May 2018 17:10:48 +0200</pubDate>
       
-      <guid>https://veggiemonk.github.io/post/google_cloud_training/</guid>
+      <guid>https://average.joe.dev/post/google_cloud_training/</guid>
       <description>1 day free event workshop in Stockholm It&amp;rsquo;s a one day event where anybody can attend for free in order to see what&amp;rsquo;s available in the cloud build by Google. Here is what the summary of that day. At 8.00 sharp, the doors open to many people who were already waiting. By waiting I mean playing with their phone, like I&amp;rsquo;m doing right now because I&amp;rsquo;m writing this blog post.</description>
     </item>
     
     <item>
       <title>Redis data estimation</title>
-      <link>https://veggiemonk.github.io/project/redis-data/</link>
+      <link>https://average.joe.dev/project/redis-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://veggiemonk.github.io/project/redis-data/</guid>
+      <guid>https://average.joe.dev/project/redis-data/</guid>
       <description></description>
     </item>
     
