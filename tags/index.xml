@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Julien Bisconti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 May 2018 17:10:48 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 24 Mar 2019 15:39:01 +0100</lastBuildDate>
     
 	<atom:link href="https://average.joe.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,7 +23,7 @@
     <item>
       <title>Automation</title>
       <link>https://average.joe.dev/tags/automation/</link>
-      <pubDate>Wed, 23 May 2018 17:10:48 +0200</pubDate>
+      <pubDate>Sun, 24 Mar 2019 15:39:01 +0100</pubDate>
       
       <guid>https://average.joe.dev/tags/automation/</guid>
       <description></description>
@@ -93,9 +93,18 @@
     </item>
     
     <item>
+      <title>Culture</title>
+      <link>https://average.joe.dev/tags/culture/</link>
+      <pubDate>Sun, 24 Mar 2019 15:39:01 +0100</pubDate>
+      
+      <guid>https://average.joe.dev/tags/culture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data</title>
       <link>https://average.joe.dev/tags/data/</link>
-      <pubDate>Tue, 06 Dec 2016 19:54:04 +0700</pubDate>
+      <pubDate>Sun, 24 Mar 2019 15:39:01 +0100</pubDate>
       
       <guid>https://average.joe.dev/tags/data/</guid>
       <description></description>
@@ -201,6 +210,24 @@
     </item>
     
     <item>
+      <title>Marketing</title>
+      <link>https://average.joe.dev/tags/marketing/</link>
+      <pubDate>Sun, 24 Mar 2019 15:39:01 +0100</pubDate>
+      
+      <guid>https://average.joe.dev/tags/marketing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>https://average.joe.dev/tags/open-source/</link>
+      <pubDate>Sun, 24 Mar 2019 15:39:01 +0100</pubDate>
+      
+      <guid>https://average.joe.dev/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Presentation</title>
       <link>https://average.joe.dev/tags/presentation/</link>
       <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
@@ -248,7 +275,7 @@
     <item>
       <title>Web</title>
       <link>https://average.joe.dev/tags/web/</link>
-      <pubDate>Tue, 06 Dec 2016 19:54:04 +0700</pubDate>
+      <pubDate>Sun, 24 Mar 2019 15:39:01 +0100</pubDate>
       
       <guid>https://average.joe.dev/tags/web/</guid>
       <description></description>

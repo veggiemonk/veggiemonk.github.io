@@ -11,6 +11,11 @@
   </url>
   
   <url>
+    <loc>https://average.joe.dev/post/successful-opensource-project/</loc>
+    <lastmod>2019-03-24T15:39:01+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://average.joe.dev/post/chaos-engineering-with-service-mesh/</loc>
     <lastmod>2018-06-22T23:03:28+02:00</lastmod>
   </url>
@@ -41,7 +46,7 @@
   
   <url>
     <loc>https://average.joe.dev/tags/automation/</loc>
-    <lastmod>2018-05-23T17:10:48+02:00</lastmod>
+    <lastmod>2019-03-24T15:39:01+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -92,8 +97,14 @@
   </url>
   
   <url>
+    <loc>https://average.joe.dev/tags/culture/</loc>
+    <lastmod>2019-03-24T15:39:01+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://average.joe.dev/tags/data/</loc>
-    <lastmod>2016-12-06T19:54:04+07:00</lastmod>
+    <lastmod>2019-03-24T15:39:01+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -149,7 +160,7 @@
   
   <url>
     <loc>https://average.joe.dev/</loc>
-    <lastmod>2018-06-22T23:03:28+02:00</lastmod>
+    <lastmod>2019-03-24T15:39:01+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -165,8 +176,20 @@
   </url>
   
   <url>
+    <loc>https://average.joe.dev/tags/marketing/</loc>
+    <lastmod>2019-03-24T15:39:01+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/open-source/</loc>
+    <lastmod>2019-03-24T15:39:01+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://average.joe.dev/post/</loc>
-    <lastmod>2018-06-22T23:03:28+02:00</lastmod>
+    <lastmod>2019-03-24T15:39:01+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -203,7 +226,7 @@
   
   <url>
     <loc>https://average.joe.dev/tags/</loc>
-    <lastmod>2018-05-23T17:10:48+02:00</lastmod>
+    <lastmod>2019-03-24T15:39:01+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -219,7 +242,7 @@
   
   <url>
     <loc>https://average.joe.dev/tags/web/</loc>
-    <lastmod>2016-12-06T19:54:04+07:00</lastmod>
+    <lastmod>2019-03-24T15:39:01+01:00</lastmod>
     <priority>0</priority>
   </url>
   

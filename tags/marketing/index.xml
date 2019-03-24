@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marketing on Julien Bisconti</title>
+    <link>https://average.joe.dev/tags/marketing/</link>
+    <description>Recent content in Marketing on Julien Bisconti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Mar 2019 15:39:01 +0100</lastBuildDate>
+    
+	<atom:link href="https://average.joe.dev/tags/marketing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Successful Opensource Projects</title>
+      <link>https://average.joe.dev/post/successful-opensource-project/</link>
+      <pubDate>Sun, 24 Mar 2019 15:39:01 +0100</pubDate>
+      
+      <guid>https://average.joe.dev/post/successful-opensource-project/</guid>
+      <description>This is the feedback that I sent to someone who is trying to make it in the open source world. Today is Sunday, I don&amp;rsquo;t have a lot of free time, so here it is:
+Since I know how hard it is to thrive in open source, please allow me to be brutally honest in the feedback. I might use strong words but it&amp;rsquo;s because I try to make you understand how to succeed in your project.</description>
+    </item>
+    
+  </channel>
+</rss>
