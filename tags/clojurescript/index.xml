@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Clojurescript on Julien Bisconti</title>
+    <title>ClojureScript on Julien Bisconti</title>
     <link>https://average.joe.dev/tags/clojurescript/</link>
-    <description>Recent content in Clojurescript on Julien Bisconti</description>
+    <description>Recent content in ClojureScript on Julien Bisconti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Dec 2016 19:54:04 +0700</lastBuildDate>
