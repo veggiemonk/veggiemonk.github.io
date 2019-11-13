@@ -12,16 +12,7 @@
     
     
     <item>
-      <title>Ansible</title>
-      <link>https://average.joe.dev/tags/ansible/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://average.joe.dev/tags/ansible/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Automation</title>
+      <title>automation</title>
       <link>https://average.joe.dev/tags/automation/</link>
       <pubDate>Sun, 24 Mar 2019 15:39:01 +0100</pubDate>
       
@@ -30,7 +21,124 @@
     </item>
     
     <item>
-      <title>Bash</title>
+      <title>culture</title>
+      <link>https://average.joe.dev/tags/culture/</link>
+      <pubDate>Sun, 24 Mar 2019 15:39:01 +0100</pubDate>
+      
+      <guid>https://average.joe.dev/tags/culture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data</title>
+      <link>https://average.joe.dev/tags/data/</link>
+      <pubDate>Sun, 24 Mar 2019 15:39:01 +0100</pubDate>
+      
+      <guid>https://average.joe.dev/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>marketing</title>
+      <link>https://average.joe.dev/tags/marketing/</link>
+      <pubDate>Sun, 24 Mar 2019 15:39:01 +0100</pubDate>
+      
+      <guid>https://average.joe.dev/tags/marketing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open source</title>
+      <link>https://average.joe.dev/tags/open-source/</link>
+      <pubDate>Sun, 24 Mar 2019 15:39:01 +0100</pubDate>
+      
+      <guid>https://average.joe.dev/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://average.joe.dev/tags/web/</link>
+      <pubDate>Sun, 24 Mar 2019 15:39:01 +0100</pubDate>
+      
+      <guid>https://average.joe.dev/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chaos engineering</title>
+      <link>https://average.joe.dev/tags/chaos-engineering/</link>
+      <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
+      
+      <guid>https://average.joe.dev/tags/chaos-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud</title>
+      <link>https://average.joe.dev/tags/cloud/</link>
+      <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
+      
+      <guid>https://average.joe.dev/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>istio</title>
+      <link>https://average.joe.dev/tags/istio/</link>
+      <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
+      
+      <guid>https://average.joe.dev/tags/istio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubernetes</title>
+      <link>https://average.joe.dev/tags/kubernetes/</link>
+      <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
+      
+      <guid>https://average.joe.dev/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>presentation</title>
+      <link>https://average.joe.dev/tags/presentation/</link>
+      <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
+      
+      <guid>https://average.joe.dev/tags/presentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>service mesh</title>
+      <link>https://average.joe.dev/tags/service-mesh/</link>
+      <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
+      
+      <guid>https://average.joe.dev/tags/service-mesh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>container</title>
+      <link>https://average.joe.dev/tags/container/</link>
+      <pubDate>Wed, 23 May 2018 17:10:48 +0200</pubDate>
+      
+      <guid>https://average.joe.dev/tags/container/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google</title>
+      <link>https://average.joe.dev/tags/google/</link>
+      <pubDate>Wed, 23 May 2018 17:10:48 +0200</pubDate>
+      
+      <guid>https://average.joe.dev/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bash</title>
       <link>https://average.joe.dev/tags/bash/</link>
       <pubDate>Tue, 22 May 2018 14:22:13 +0200</pubDate>
       
@@ -39,11 +147,20 @@
     </item>
     
     <item>
-      <title>Chaos Engineering</title>
-      <link>https://average.joe.dev/tags/chaos-engineering/</link>
-      <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
+      <title>docker</title>
+      <link>https://average.joe.dev/tags/docker/</link>
+      <pubDate>Tue, 22 May 2018 14:22:13 +0200</pubDate>
       
-      <guid>https://average.joe.dev/tags/chaos-engineering/</guid>
+      <guid>https://average.joe.dev/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terminal</title>
+      <link>https://average.joe.dev/tags/terminal/</link>
+      <pubDate>Tue, 22 May 2018 14:22:13 +0200</pubDate>
+      
+      <guid>https://average.joe.dev/tags/terminal/</guid>
       <description></description>
     </item>
     
@@ -57,7 +174,7 @@
     </item>
     
     <item>
-      <title>Clojurescript</title>
+      <title>ClojureScript</title>
       <link>https://average.joe.dev/tags/clojurescript/</link>
       <pubDate>Tue, 06 Dec 2016 19:54:04 +0700</pubDate>
       
@@ -66,88 +183,7 @@
     </item>
     
     <item>
-      <title>Cloud</title>
-      <link>https://average.joe.dev/tags/cloud/</link>
-      <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
-      
-      <guid>https://average.joe.dev/tags/cloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Code</title>
-      <link>https://average.joe.dev/tags/code/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://average.joe.dev/tags/code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Container</title>
-      <link>https://average.joe.dev/tags/container/</link>
-      <pubDate>Wed, 23 May 2018 17:10:48 +0200</pubDate>
-      
-      <guid>https://average.joe.dev/tags/container/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Culture</title>
-      <link>https://average.joe.dev/tags/culture/</link>
-      <pubDate>Sun, 24 Mar 2019 15:39:01 +0100</pubDate>
-      
-      <guid>https://average.joe.dev/tags/culture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data</title>
-      <link>https://average.joe.dev/tags/data/</link>
-      <pubDate>Sun, 24 Mar 2019 15:39:01 +0100</pubDate>
-      
-      <guid>https://average.joe.dev/tags/data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Database</title>
-      <link>https://average.joe.dev/tags/database/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://average.joe.dev/tags/database/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dev</title>
-      <link>https://average.joe.dev/tags/dev/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://average.joe.dev/tags/dev/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>https://average.joe.dev/tags/docker/</link>
-      <pubDate>Tue, 22 May 2018 14:22:13 +0200</pubDate>
-      
-      <guid>https://average.joe.dev/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Estimation</title>
-      <link>https://average.joe.dev/tags/estimation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://average.joe.dev/tags/estimation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fetching</title>
+      <title>fetching</title>
       <link>https://average.joe.dev/tags/fetching/</link>
       <pubDate>Tue, 06 Dec 2016 19:54:04 +0700</pubDate>
       
@@ -156,16 +192,7 @@
     </item>
     
     <item>
-      <title>Google</title>
-      <link>https://average.joe.dev/tags/google/</link>
-      <pubDate>Wed, 23 May 2018 17:10:48 +0200</pubDate>
-      
-      <guid>https://average.joe.dev/tags/google/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Http</title>
+      <title>http</title>
       <link>https://average.joe.dev/tags/http/</link>
       <pubDate>Tue, 06 Dec 2016 19:54:04 +0700</pubDate>
       
@@ -174,16 +201,52 @@
     </item>
     
     <item>
-      <title>Istio</title>
-      <link>https://average.joe.dev/tags/istio/</link>
-      <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
+      <title>ansible</title>
+      <link>https://average.joe.dev/tags/ansible/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://average.joe.dev/tags/istio/</guid>
+      <guid>https://average.joe.dev/tags/ansible/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Javascript</title>
+      <title>code</title>
+      <link>https://average.joe.dev/tags/code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://average.joe.dev/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>database</title>
+      <link>https://average.joe.dev/tags/database/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://average.joe.dev/tags/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dev</title>
+      <link>https://average.joe.dev/tags/dev/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://average.joe.dev/tags/dev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>estimation</title>
+      <link>https://average.joe.dev/tags/estimation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://average.joe.dev/tags/estimation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
       <link>https://average.joe.dev/tags/javascript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -192,16 +255,7 @@
     </item>
     
     <item>
-      <title>Kubernetes</title>
-      <link>https://average.joe.dev/tags/kubernetes/</link>
-      <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
-      
-      <guid>https://average.joe.dev/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
+      <title>linux</title>
       <link>https://average.joe.dev/tags/linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -210,34 +264,7 @@
     </item>
     
     <item>
-      <title>Marketing</title>
-      <link>https://average.joe.dev/tags/marketing/</link>
-      <pubDate>Sun, 24 Mar 2019 15:39:01 +0100</pubDate>
-      
-      <guid>https://average.joe.dev/tags/marketing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open Source</title>
-      <link>https://average.joe.dev/tags/open-source/</link>
-      <pubDate>Sun, 24 Mar 2019 15:39:01 +0100</pubDate>
-      
-      <guid>https://average.joe.dev/tags/open-source/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Presentation</title>
-      <link>https://average.joe.dev/tags/presentation/</link>
-      <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
-      
-      <guid>https://average.joe.dev/tags/presentation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Redis</title>
+      <title>redis</title>
       <link>https://average.joe.dev/tags/redis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -246,7 +273,7 @@
     </item>
     
     <item>
-      <title>Server</title>
+      <title>server</title>
       <link>https://average.joe.dev/tags/server/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -255,34 +282,7 @@
     </item>
     
     <item>
-      <title>Service Mesh</title>
-      <link>https://average.joe.dev/tags/service-mesh/</link>
-      <pubDate>Fri, 22 Jun 2018 23:03:28 +0200</pubDate>
-      
-      <guid>https://average.joe.dev/tags/service-mesh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Terminal</title>
-      <link>https://average.joe.dev/tags/terminal/</link>
-      <pubDate>Tue, 22 May 2018 14:22:13 +0200</pubDate>
-      
-      <guid>https://average.joe.dev/tags/terminal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web</title>
-      <link>https://average.joe.dev/tags/web/</link>
-      <pubDate>Sun, 24 Mar 2019 15:39:01 +0100</pubDate>
-      
-      <guid>https://average.joe.dev/tags/web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zsh</title>
+      <title>zsh</title>
       <link>https://average.joe.dev/tags/zsh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
