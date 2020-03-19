@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -8,6 +8,56 @@
   
   <url>
     <loc>https://average.joe.dev/project/cewg/</loc>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/c/</loc>
+    <lastmod>2020-03-18T23:03:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/catalina/</loc>
+    <lastmod>2020-03-18T23:03:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/compiling/</loc>
+    <lastmod>2020-03-18T23:03:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/post/rust-compile-c-osx/</loc>
+    <lastmod>2020-03-18T23:03:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/dependencies/</loc>
+    <lastmod>2020-03-18T23:03:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/</loc>
+    <lastmod>2020-03-18T23:03:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/osx/</loc>
+    <lastmod>2020-03-18T23:03:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/post/</loc>
+    <lastmod>2020-03-18T23:03:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/rust/</loc>
+    <lastmod>2020-03-18T23:03:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://average.joe.dev/tags/</loc>
+    <lastmod>2020-03-18T23:03:28+02:00</lastmod>
   </url>
   
   <url>
@@ -26,11 +76,6 @@
   </url>
   
   <url>
-    <loc>https://average.joe.dev/</loc>
-    <lastmod>2019-03-24T15:39:01+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://average.joe.dev/tags/marketing/</loc>
     <lastmod>2019-03-24T15:39:01+01:00</lastmod>
   </url>
@@ -41,17 +86,7 @@
   </url>
   
   <url>
-    <loc>https://average.joe.dev/post/</loc>
-    <lastmod>2019-03-24T15:39:01+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://average.joe.dev/post/successful-opensource-project/</loc>
-    <lastmod>2019-03-24T15:39:01+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://average.joe.dev/tags/</loc>
     <lastmod>2019-03-24T15:39:01+01:00</lastmod>
   </url>
   

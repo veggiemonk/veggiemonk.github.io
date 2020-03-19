@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+         
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121437216-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-121437216-1');
+</script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Compiling C dependencies for Rust and node-gyp on MacOSX Catalina</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: floralwhite;
+    }
+
+    :root {
+        --accent: #2492ff;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://average.joe.dev/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javascript.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/clojure.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.67.0" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Compiling C dependencies for Rust and node-gyp on MacOSX Catalina</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/post/">Posts</a></li>
+                            
+                                <li><a href="/project/">Projects</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:julien.bisconti@hotmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/veggiemonk/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/veggiemonk/"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/julienbisconti/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.slideshare.net/julienbisconti"><i class="fa fa-slideshare"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.youtube.com/playlist?list=PLYxGStwBFd5PrwBH14sU7IuZj7QZ1q6YQ"><i class="fa fa-youtube"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Compiling C dependencies for Rust and node-gyp on MacOSX Catalina</h2>
+        <h5>March 18, 2020</h5>
+        
+<a href="https://average.joe.devtags/rust"><kbd class="item-tag">rust</kbd></a>
+
+<a href="https://average.joe.devtags/compiling"><kbd class="item-tag">compiling</kbd></a>
+
+<a href="https://average.joe.devtags/c"><kbd class="item-tag">c</kbd></a>
+
+<a href="https://average.joe.devtags/dependencies"><kbd class="item-tag">dependencies</kbd></a>
+
+<a href="https://average.joe.devtags/osx"><kbd class="item-tag">osx</kbd></a>
+
+<a href="https://average.joe.devtags/catalina"><kbd class="item-tag">catalina</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content"><h2 id="quick-story-first">Quick story first.</h2>
+<pre><code>A weed smoker died. He did bad things during his life and was sent to hell. Arriving there, he saw an endless field of plants (marijuana) and in the middle, sitting there, Jimmy Hendrix and Bob Marley, rolling a massive join. 
+
+He ran towards them and say: - &quot;Hi, big fan, quick question. I thought this was going to be hell! But with all that weed, I must be in heaven. Can we smoke some together?&quot;
+Hendrix asks, &quot;Got a lighter ?&quot; 
+Smoker replied, &quot;No.&quot;
+Marley says, &quot;See, man, this is hell&quot;.
+</code></pre>
+<p>I don&rsquo;t smoke weed. I don&rsquo;t even drink alcohol. My addiction is trying GitHub projects.
+So I wanted to try a Rust project that I use daily on a freshly installed OSX.
+Clone, change dir, <code>cargo build</code>.
+And this is what hell looks like for me:</p>
+<pre><code>error: failed to run custom build command for `libz-sys v1.0.25`
+
+Caused by:
+  process didn't exit successfully: `/Users/julien/code/rust/starship/target/debug/build/libz-sys-42a4bb72600da88a/build-script-build` (exit code: 1)
+--- stdout
+cargo:rerun-if-env-changed=LIBZ_SYS_STATIC
+cargo:rerun-if-changed=build.rs
+OPT_LEVEL = Some(&quot;0&quot;)
+TARGET = Some(&quot;x86_64-apple-darwin&quot;)
+HOST = Some(&quot;x86_64-apple-darwin&quot;)
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some(&quot;true&quot;)
+CARGO_CFG_TARGET_FEATURE = Some(&quot;fxsr,sse,sse2,sse3,ssse3&quot;)
+running &quot;cc&quot; &quot;src/smoke.c&quot; &quot;-o&quot; &quot;/dev/null&quot; &quot;-lz&quot;
+running: &quot;cc&quot; &quot;-O0&quot; &quot;-ffunction-sections&quot; &quot;-fdata-sections&quot; &quot;-fPIC&quot; &quot;-g&quot; &quot;-fno-omit-frame-pointer&quot; &quot;-m64&quot; &quot;-I&quot; &quot;src/zlib&quot; &quot;-fvisibility=hidden&quot; &quot;-DSTDC&quot; &quot;-D_LARGEFILE64_SOURCE&quot; &quot;-D_POSIX_SOURCE&quot; &quot;-o&quot; &quot;/Users/julien/code/rust/starship/target/debug/build/libz-sys-fd27be55bdb5100e/out/build/src/zlib/compress.o&quot; &quot;-c&quot; &quot;src/zlib/compress.c&quot;
+running: &quot;cc&quot; &quot;-O0&quot; &quot;-ffunction-sections&quot; &quot;-fdata-sections&quot; &quot;-fPIC&quot; &quot;-g&quot; &quot;-fno-omit-frame-pointer&quot; &quot;-m64&quot; &quot;-I&quot; &quot;src/zlib&quot; &quot;-fvisibility=hidden&quot; &quot;-DSTDC&quot; &quot;-D_LARGEFILE64_SOURCE&quot; &quot;-D_POSIX_SOURCE&quot; &quot;-o&quot; &quot;/Users/julien/code/rust/starship/target/debug/build/libz-sys-fd27be55bdb5100e/out/build/src/zlib/adler32.o&quot; &quot;-c&quot; &quot;src/zlib/adler32.c&quot;
+cargo:warning=In file included from src/zlib/compress.c:9:
+cargo:warning=In file included from src/zlib/zlib.h:34:
+cargo:warning=src/zlib/zconf.h:444:14: fatal error: 'sys/types.h' file not found
+cargo:warning=#    include &lt;sys/types.h&gt;      /* for off_t */
+cargo:warning=             ^~~~~~~~~~~~~
+cargo:warning=1 error generated.
+cargo:warning=In file included from src/zlib/adler32.c:8:
+cargo:warning=In file included from src/zlib/zutil.h:22:
+cargo:warning=In file included from src/zlib/zlib.h:34:
+cargo:warning=src/zlib/zconf.h:444:14: fatal error: 'sys/types.h' file not found
+cargo:warning=#    include &lt;sys/types.h&gt;      /* for off_t */
+cargo:warning=             ^~~~~~~~~~~~~
+exit code: 1
+running: &quot;cc&quot; &quot;-O0&quot; &quot;-ffunction-sections&quot; &quot;-fdata-sections&quot; &quot;-fPIC&quot; &quot;-g&quot; &quot;-fno-omit-frame-pointer&quot; &quot;-m64&quot; &quot;-I&quot; &quot;src/zlib&quot; &quot;-fvisibility=hidden&quot; &quot;-DSTDC&quot; &quot;-D_LARGEFILE64_SOURCE&quot; &quot;-D_POSIX_SOURCE&quot; &quot;-o&quot; &quot;/Users/julien/code/rust/starship/target/debug/build/libz-sys-fd27be55bdb5100e/out/build/src/zlib/crc32.o&quot; &quot;-c&quot; &quot;src/zlib/crc32.c&quot;
+cargo:warning=1 error generated.
+exit code: 1
+cargo:warning=In file included from src/zlib/crc32.c:31:
+cargo:warning=In file included from src/zlib/zutil.h:22:
+cargo:warning=In file included from src/zlib/zlib.h:34:
+cargo:warning=src/zlib/zconf.h:444:14: fatal error: 'sys/types.h' file not found
+cargo:warning=#    include &lt;sys/types.h&gt;      /* for off_t */
+cargo:warning=             ^~~~~~~~~~~~~
+cargo:warning=1 error generated.
+exit code: 1
+
+--- stderr
+src/smoke.c:1:10: fatal error: 'zlib.h' file not found
+#include &lt;zlib.h&gt;
+         ^~~~~~~~
+1 error generated.
+
+
+error occurred: Command &quot;cc&quot; &quot;-O0&quot; &quot;-ffunction-sections&quot; &quot;-fdata-sections&quot; &quot;-fPIC&quot; &quot;-g&quot; &quot;-fno-omit-frame-pointer&quot; &quot;-m64&quot; &quot;-I&quot; &quot;src/zlib&quot; &quot;-fvisibility=hidden&quot; &quot;-DSTDC&quot; &quot;-D_LARGEFILE64_SOURCE&quot; &quot;-D_POSIX_SOURCE&quot; &quot;-o&quot; &quot;/Users/julien/code/rust/starship/target/debug/build/libz-sys-fd27be55bdb5100e/out/build/src/zlib/adler32.o&quot; &quot;-c&quot; &quot;src/zlib/adler32.c&quot; with args &quot;cc&quot; did not execute successfully (status code exit code: 1).
+
+
+warning: build failed, waiting for other jobs to finish...
+error: build failed
+</code></pre><p>I&rsquo;ve had my fare share of C/C++ compiling errors 15 years ago using Gentoo.
+So by reflex, search the internet with the error message: Nothing.
+And that&rsquo;s hell. It means, it is my environment and I&rsquo;m missing some dependecies.</p>
+<p>I check <code>brew info zlib</code> and</p>
+<pre><code>==&gt; Caveats
+zlib is keg-only, which means it was not symlinked into /usr/local,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+</code></pre><p>It doesn&rsquo;t look good.</p>
+<p>I searched and searched for a ridiculous amount of hours.
+Trying nightly versions of Rust, different targets, changing dependencies version, trying to build others Rust projects.
+All failed.</p>
+<p>I gave up for the day when I caught myself looking at forum threads from 2012. I felt like being an archeologist mixed with an historian. This has gone too far. Taking a break.</p>
+<h2 id="sometimes-you-just-cant-let-it-go">Sometimes, you just can&rsquo;t let it go</h2>
+<p>Still griding at the back of my mind is that compile error. Then I remembered, when in doubt, on OSX, install the full version (9 GB) of XCode to the latest version. I&rsquo;m sure this will be a common experience for most projects in any language or platform in 2025, if we survive the ripple of COVID-19, that is. Trying and re-trying <code>xcode-select --install</code> (the lightweight version of XCode) did not change anything.</p>
+<p>I just wanted the banana and got the gorilla holding the banana with the whole jungle.</p>
+<p>Let&rsquo;s try to compile a C program <code>a.c</code>.</p>
+<pre><code>#include&lt;stdio.h&gt;
+int main(void){
+ printf(&quot;Hello world\n&quot;);
+ return 0;
+}
+</code></pre><p>Running <code>gcc -o a a.c</code> works perfectly.
+Running <code>make a</code> throw this error:</p>
+<pre><code>cc     a.c   -o a
+a.c:1:9: fatal error: 'stdio.h' file not found
+#include&lt;stdio.h&gt;
+        ^~~~~~~~~
+1 error generated.
+make: *** [a] Error 1
+</code></pre><h2 id="ok-were-getting-somewhere">Ok, we&rsquo;re getting somewhere.</h2>
+<p>I returned to build the Rust program with different flags to no avail.</p>
+<p>I gave up and went back to a Node.js project.
+Change dir, <code>npm install</code>.
+I wonder if there is a competition I don&rsquo;t know about, to see who has the most dependencies.
+And hell is there again:</p>
+<pre><code>❯ npm install
+
+&gt; fsevents@1.2.11 install /Users/julien/code/awesome-docker/node_modules/fsevents
+&gt; node-gyp rebuild
+
+  SOLINK_MODULE(target) Release/.node
+  CXX(target) Release/obj.target/fse/fsevents.o
+In file included from ../fsevents.cc:6:
+In file included from ../../nan/nan.h:53:
+In file included from /Users/julien/Library/Caches/node-gyp/12.16.1/include/node/uv.h:52:
+In file included from /Users/julien/Library/Caches/node-gyp/12.16.1/include/node/uv/errno.h:25:
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/errno.h:32:15: fatal error: 'errno.h' file not found
+#include_next &lt;errno.h&gt;
+              ^~~~~~~~~
+1 error generated.
+make: *** [Release/obj.target/fse/fsevents.o] Error 1
+gyp ERR! build error
+gyp ERR! stack Error: `make` failed with exit code: 2
+gyp ERR! stack     at ChildProcess.onExit (/Users/julien/.fnm/node-versions/v12.16.1/installation/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:194:23)
+gyp ERR! stack     at ChildProcess.emit (events.js:311:20)
+gyp ERR! stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
+gyp ERR! System Darwin 19.3.0
+gyp ERR! command &quot;/Users/julien/.fnm/node-versions/v12.16.1/installation/bin/node&quot; &quot;/Users/julien/.fnm/node-versions/v12.16.1/installation/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js&quot; &quot;rebuild&quot;
+gyp ERR! cwd /Users/julien/code/awesome-docker/node_modules/fsevents
+gyp ERR! node -v v12.16.1
+gyp ERR! node-gyp -v v5.1.0
+gyp ERR! not ok
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules/fsevents):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 install: `node-gyp rebuild`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+
+audited 9680 packages in 7.655s
+
+31 packages are looking for funding
+  run `npm fund` for details
+
+found 10 low severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+</code></pre><p>What did I do to deserve this?</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Ok let&rsquo;s look at node-gyp.</p>
+<p>Nice, a special page decicated to <a href="https://github.com/nodejs/node-gyp/blob/master/macOS_Catalina.md">Catalina</a></p>
+<p>Trying all the steps and debugging everything.</p>
+<p>Nope. Still in hell.</p>
+<p>Maybe I&rsquo;m thinking about it all wrong. This is not Rust related, it is not node-gyp related, it is OSX Catalina related.</p>
+<h2 id="the-answer">The Answer</h2>
+<p>Stack overflow to the rescue:</p>
+<ul>
+<li>
+<p><a href="https://stackoverflow.com/questions/52509602/cant-compile-c-program-on-a-mac-after-upgrade-to-mojave">https://stackoverflow.com/questions/52509602/cant-compile-c-program-on-a-mac-after-upgrade-to-mojave</a></p>
+</li>
+<li>
+<p><a href="https://apple.stackexchange.com/questions/372032/usr-include-missing-on-macos-catalina-with-xcode-11">https://apple.stackexchange.com/questions/372032/usr-include-missing-on-macos-catalina-with-xcode-11</a></p>
+</li>
+<li>
+<p><a href="https://apple.stackexchange.com/questions/372340/missing-header-files-on-macos-catalina">https://apple.stackexchange.com/questions/372340/missing-header-files-on-macos-catalina</a></p>
+</li>
+</ul>
+<p>Finally, the answer was, the <code>CPATH</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">export CPATH<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>xcrun --show-sdk-path<span style="color:#66d9ef">)</span><span style="color:#e6db74">/usr/include&#34;</span>  <span style="color:#75715e"># bash, zsh</span>
+<span style="color:#75715e"># or fish shell</span>
+set -x CPATH <span style="color:#f92672">(</span>xcrun --show-sdk-path<span style="color:#f92672">)</span>/usr/include 
+</code></pre></div><p>Now everything compiles \o/</p>
+<p>What is <code>CPATH</code>:</p>
+<blockquote>
+<p>CPATH specifies a list of directories to be searched as if specified with -I, but after any paths given with -I options on the command line. This environment variable is used regardless of which language is being preprocessed.</p>
+</blockquote>
+<p>Source: <a href="http://gcc.gnu.org/onlinedocs/cpp/Environment-Variables.html">http://gcc.gnu.org/onlinedocs/cpp/Environment-Variables.html</a></p>
+<p>I&rsquo;m going to remember that one. I hope it saves someone some pain.</p>
+</div>
+
+    
+    
+    
+
+    
+    
+        <h4 class="page-header">Comments</h4>
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-veggiemonk-github-io-post" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

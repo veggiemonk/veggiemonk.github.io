@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>catalina on Julien Bisconti</title>
+    <link>https://average.joe.dev/tags/catalina/</link>
+    <description>Recent content in catalina on Julien Bisconti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Mar 2020 23:03:28 +0200</lastBuildDate>
+    
+	<atom:link href="https://average.joe.dev/tags/catalina/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Compiling C dependencies for Rust and node-gyp on MacOSX Catalina</title>
+      <link>https://average.joe.dev/post/rust-compile-c-osx/</link>
+      <pubDate>Wed, 18 Mar 2020 23:03:28 +0200</pubDate>
+      
+      <guid>https://average.joe.dev/post/rust-compile-c-osx/</guid>
+      <description>Quick story first. A weed smoker died. He did bad things during his life and was sent to hell. Arriving there, he saw an endless field of plants (marijuana) and in the middle, sitting there, Jimmy Hendrix and Bob Marley, rolling a massive join. He ran towards them and say: - &amp;quot;Hi, big fan, quick question. I thought this was going to be hell! But with all that weed, I must be in heaven.</description>
+    </item>
+    
+  </channel>
+</rss>
