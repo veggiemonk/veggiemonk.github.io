@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Julien Bisconti</title>
@@ -6,10 +6,64 @@
     <description>Recent content in Tags on Julien Bisconti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Mar 2019 15:39:01 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2020 23:03:28 +0200</lastBuildDate>
     
 	<atom:link href="https://average.joe.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>c</title>
+      <link>https://average.joe.dev/tags/c/</link>
+      <pubDate>Wed, 18 Mar 2020 23:03:28 +0200</pubDate>
+      
+      <guid>https://average.joe.dev/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>catalina</title>
+      <link>https://average.joe.dev/tags/catalina/</link>
+      <pubDate>Wed, 18 Mar 2020 23:03:28 +0200</pubDate>
+      
+      <guid>https://average.joe.dev/tags/catalina/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>compiling</title>
+      <link>https://average.joe.dev/tags/compiling/</link>
+      <pubDate>Wed, 18 Mar 2020 23:03:28 +0200</pubDate>
+      
+      <guid>https://average.joe.dev/tags/compiling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dependencies</title>
+      <link>https://average.joe.dev/tags/dependencies/</link>
+      <pubDate>Wed, 18 Mar 2020 23:03:28 +0200</pubDate>
+      
+      <guid>https://average.joe.dev/tags/dependencies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>osx</title>
+      <link>https://average.joe.dev/tags/osx/</link>
+      <pubDate>Wed, 18 Mar 2020 23:03:28 +0200</pubDate>
+      
+      <guid>https://average.joe.dev/tags/osx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rust</title>
+      <link>https://average.joe.dev/tags/rust/</link>
+      <pubDate>Wed, 18 Mar 2020 23:03:28 +0200</pubDate>
+      
+      <guid>https://average.joe.dev/tags/rust/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>automation</title>
